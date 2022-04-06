@@ -12,4 +12,5 @@
     <string name="transgenderCheckStr">Transgender</string>
     <string name="nonbinaryCheckStr">Non-binary/non-conforming</string>
     <string name="noresponseCheckStr">Prefer not to respond</string>
+    <string name="title_activity_userinterfacemain">TEST</string>
 </resources>
