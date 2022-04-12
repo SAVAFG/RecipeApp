@@ -11,7 +11,7 @@ public class SurveyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.survey_page);
+        setContentView(R.layout.activity_survey);
     }
 
     public void checkOutput(View v) {

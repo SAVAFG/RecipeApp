@@ -1,11 +1,10 @@
 <resources>
     <string name="app_name">RecipeApp</string>
-    <string name="userInfoHeaderStr">User Information</string>
-    <string name="ageLabelStr">Age</string>
+    <string name="surveyHeaderStr">Survey</string>
+    <string name="birthdayLabelStr">Birthday</string>
     <string name="GenderLabelStr">Gender</string>
     <string name="WeightLabelStr">Weight</string>
     <string name="numInputLabelStr">Enter a number</string>
-    <string name="yearsInputLabelStr">Enter a number (years)</string>
     <string name="lbsInputLabelStr">Enter a number (lbs)</string>
     <string name="maleCheckStr">Male</string>
     <string name="femaleCheckStr">Female</string>
