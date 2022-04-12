@@ -13,4 +13,22 @@
     <string name="nonbinaryCheckStr">Non-binary/non-conforming</string>
     <string name="noresponseCheckStr">Prefer not to respond</string>
     <string name="title_activity_userinterfacemain">TEST</string>
+    <string name="helloworld">Hello World!</string>
+    <string name="start">Click to start</string>
+    <string name="searchforrecipes">Search recipes</string>
+    <string name="recipetitle">Recipe Name</string>
+    <string name="recipedescription">Description</string>
+
+    <string-array name="recipenamesexample">
+        <item>recipe1</item>
+        <item>recipe12</item>
+        <item>recipe13</item>
+        <item>recipe14</item>
+        <item>recipe156</item>
+        <item>recipe178</item>
+        <item>recipe19</item>
+        <item>recipe10</item>
+        <item>recipe11</item>
+    </string-array>
+
 </resources>
