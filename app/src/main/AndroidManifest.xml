@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".recipeinfo"
+            android:name=".SurveyActivity"
             android:exported="true">
         </activity>
 
