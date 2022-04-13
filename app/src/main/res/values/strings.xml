@@ -18,6 +18,12 @@
     <string name="searchforrecipes">Search recipes</string>
     <string name="recipetitle">Recipe Name</string>
     <string name="recipedescription">Description</string>
+    <string name="search_recipes">Search Recipes</string>
+    <string name="todo">TODO</string>
+    <string name="surveyHeaderStr">Survey</string>
+    <string name="birthdayLabelStr">Birthday</string>
+    <string name="UserName">Name</string>
+    <string name="enterNameHint">Enter your name</string>
 
     <string-array name="recipenamesexample">
         <item>recipe1</item>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/strHeaderMainSurvey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/surveyHeaderStr"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/strHeaderMinorBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/birthdayLabelStr"
+            android:textSize="24sp" />
+
+        <DatePicker
+            android:id="@+id/datePickerBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+
+
+        <TextView
+            android:id="@+id/strHeaderMinorGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/GenderLabelStr"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+
+            tools:ignore="UsingOnClickInXml">
+
+            <RadioButton
+                android:id="@+id/radioButtonGenderMale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/maleCheckStr" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGenderFemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/femaleCheckStr" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGenderNonBinary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/nonbinaryCheckStr" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGenderNoResponse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+
+                android:text="@string/noresponseCheckStr" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/strHeaderMinorWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/WeightLabelStr"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/numDecimalWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/lbsInputLabelStr"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/strHeaderUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/UserName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter your name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
