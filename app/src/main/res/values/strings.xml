@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">RecipeApp</string>
-    <string name="surveyHeaderStr">Survey</string>
-    <string name="birthdayLabelStr">Birthday</string>
     <string name="GenderLabelStr">Gender</string>
     <string name="WeightLabelStr">Weight</string>
     <string name="numInputLabelStr">Enter a number</string>

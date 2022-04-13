@@ -24,16 +24,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:minHeight="48dp"
+            android:onClick="readBirthday"
             android:text="@string/birthdayLabelStr"
             android:textSize="24sp" />
+
 
         <DatePicker
             android:id="@+id/datePickerBirthday"
             android:layout_width="match_parent"
             android:layout_height="143dp"
             android:calendarViewShown="false"
-            android:datePickerMode="spinner" />
-
+            android:datePickerMode="spinner"
+            android:onClick="updateBirthday" />
 
         <TextView
             android:id="@+id/strHeaderMinorGender"
@@ -115,7 +118,9 @@
             android:ems="10"
             android:hint="@string/EnterNameHint"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            android:autofillHints="" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
