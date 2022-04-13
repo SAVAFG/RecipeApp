@@ -22,6 +22,14 @@
             android:name=".recipeinfo"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".SurveyActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".InitialPage"
+            android:exported="true">
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

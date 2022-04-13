@@ -43,7 +43,7 @@ public class recycleadaptor extends RecyclerView.Adapter<recycleadaptor.MyViewHo
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView myText1, myText2;
+        TextView myText1;
         ImageView myImage;
 
         public MyViewHolder(@NonNull View itemView) {
