@@ -60,31 +60,34 @@
                 android:id="@+id/allergy4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:clickable="false"
+                android:clickable="true"
+                android:text="@string/fish"
+                android:focusable="true" />
 
-                android:text="@string/fish" />
+            <RadioButton
+                android:id="@+id/allergy5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/soy"
+                android:focusable="true" />
+
+            <RadioButton
+                android:id="@+id/allergy6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/wheat"
+                android:focusable="true" />
+
+            <RadioButton
+                android:id="@+id/allergy7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/eggs"
+                android:focusable="true" />
         </RadioGroup>
-
-        <RadioButton
-            android:id="@+id/allergy5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="false"
-            android:text="@string/soy" />
-
-        <RadioButton
-            android:id="@+id/allergy6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="false"
-            android:text="@string/wheat" />
-
-        <RadioButton
-            android:id="@+id/allergy7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="false"
-            android:text="@string/eggs" />
 
 
         <EditText
@@ -110,7 +113,6 @@
             android:id="@+id/diet1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:text="@string/vegan" />
 
         <RadioButton
@@ -119,13 +121,13 @@
             android:layout_height="wrap_content"
             android:text="@string/vegetarian" />
 
-
         <RadioButton
             android:id="@+id/diet3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:clickable="false"
-            android:text="@string/pescatarian" />
+            android:clickable="true"
+            android:text="@string/pescatarian"
+            android:focusable="true" />
 
 
         <EditText

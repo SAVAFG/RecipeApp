@@ -16,7 +16,7 @@ public class FoodRestrictionsSurvey extends AppCompatActivity {
     }
 
     public void RecipeOptions(View view) {
-        Intent intent = new Intent(this, recipeinfo.class);
+        Intent intent = new Intent(this, RecipeInfo.class);
         startActivity(intent);
     }
 }

@@ -24,12 +24,12 @@
         android:includeFontPadding="false"
         android:onClick="sendSurvey"
         android:text="@string/start"
-        android:textColor="#0B0B0B"
+        android:textColor="@color/white"
         android:textColorHighlight="#00000000"
-        android:textColorHint="#FFFFFF"
-        android:textColorLink="#FFFFFF"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
         app:iconPadding="15dp"
         app:iconTint="#00000000"
         app:iconTintMode="src_over"
-        tools:ignore="UsingOnClickInXml" />
+        tools:ignore="UsingOnClickInXml,TextContrastCheck" />
 </LinearLayout>
