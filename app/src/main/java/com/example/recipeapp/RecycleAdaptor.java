@@ -10,12 +10,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class recycleadaptor extends RecyclerView.Adapter<recycleadaptor.MyViewHolder> {
+public class RecycleAdaptor extends RecyclerView.Adapter<RecycleAdaptor.MyViewHolder> {
     String[] data1;
     int[] images;
     Context context;
 
-    public recycleadaptor(Context ct, String[] s1, int[] img) {
+    public RecycleAdaptor(Context ct, String[] s1, int[] img) {
         context = ct;
         data1 = s1;
 
