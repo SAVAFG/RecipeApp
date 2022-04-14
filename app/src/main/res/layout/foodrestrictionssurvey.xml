@@ -16,31 +16,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/surveyHeaderStr"
+            android:text="@string/food_preferences"
             android:textSize="34sp" />
-
-        <TextView
-            android:id="@+id/strHeaderMinorBirthday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/birthdayLabelStr"
-            android:textSize="24sp" />
-
-        <DatePicker
-            android:id="@+id/datePickerBirthday"
-            android:layout_width="match_parent"
-            android:layout_height="143dp"
-            android:calendarViewShown="false"
-            android:datePickerMode="spinner" />
-
 
         <TextView
             android:id="@+id/strHeaderMinorGender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/GenderLabelStr"
+            android:text="@string/allergies"
             android:textSize="24sp" />
 
         <RadioGroup
@@ -52,76 +36,115 @@
             tools:ignore="UsingOnClickInXml">
 
             <RadioButton
-                android:id="@+id/radioButtonGenderMale"
+                android:id="@+id/allergy1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:text="@string/maleCheckStr" />
+                android:text="@string/nuts" />
 
             <RadioButton
-                android:id="@+id/radioButtonGenderFemale"
+                android:id="@+id/allergy2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:text="@string/femaleCheckStr" />
+                android:text="@string/gluten" />
 
             <RadioButton
-                android:id="@+id/radioButtonGenderNonBinary"
+                android:id="@+id/allergy3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:text="@string/nonbinaryCheckStr" />
+                android:text="@string/lactose_intolerant" />
 
             <RadioButton
-                android:id="@+id/radioButtonGenderNoResponse"
+                android:id="@+id/allergy4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:clickable="false"
+                android:clickable="true"
+                android:text="@string/fish"
+                android:focusable="true" />
 
-                android:text="@string/noresponseCheckStr" />
+            <RadioButton
+                android:id="@+id/allergy5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/soy"
+                android:focusable="true" />
+
+            <RadioButton
+                android:id="@+id/allergy6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/wheat"
+                android:focusable="true" />
+
+            <RadioButton
+                android:id="@+id/allergy7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/eggs"
+                android:focusable="true" />
         </RadioGroup>
 
-        <TextView
-            android:id="@+id/strHeaderMinorWeight"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/WeightLabelStr"
-            android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/numDecimalWeight"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:ems="10"
-            android:hint="@string/lbsInputLabelStr"
-            android:inputType="numberDecimal"
-            android:minHeight="48dp"
-            tools:ignore="TextContrastCheck" />
-
-        <TextView
-            android:id="@+id/strHeaderUserName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/UserName"
-            android:textSize="24sp" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/otherAllergy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/EnterNameHint"
+            android:hint="@string/other_allergy"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/allergiesgeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/diets"
+            android:textSize="24sp" />
+
+
+        <RadioButton
+            android:id="@+id/diet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vegan" />
+
+        <RadioButton
+            android:id="@+id/diet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vegetarian" />
+
+        <RadioButton
+            android:id="@+id/diet3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="@string/pescatarian"
+            android:focusable="true" />
+
+
+        <EditText
+            android:id="@+id/otherDiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/other_diet"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:autofillHints="" />
 
         <Button
             android:id="@+id/nextButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="FoodRestrictions"
+            android:onClick="RecipeOptions"
             android:text="@string/nextButton"
             android:textSize="20sp" />
 

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">RecipeApp</string>
     <string name="userInfoHeaderStr">User Information</string>
     <string name="ageLabelStr">Age</string>
@@ -25,9 +25,25 @@
     <string name="UserName">Name</string>
     <string name="enterNameHint">Enter your name</string>
     <string name="EnterNameHint">Enter your name</string>
+    <string name="nextButton">Next</string>
+    <string name="other_diet">Other diet</string>
+    <string name="pescatarian">Pescatarian</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="vegan">Vegan</string>
+    <string name="diets">Diets</string>
+    <string name="other_allergy">Other allergy</string>
+    <string name="eggs">Eggs</string>
+    <string name="wheat">Wheat</string>
+    <string name="soy">Soy</string>
+    <string name="fish">Fish</string>
+    <string name="lactose_intolerant">Lactose intolerant</string>
+    <string name="gluten">Gluten</string>
+    <string name="nuts">Nuts</string>
+    <string name="allergies">Allergies</string>
+    <string name="food_preferences">Food Preferences</string>
 
     <string-array name="recipenamesexample">
-        <item>recipe1</item>
+        <item>recipe!</item>
         <item>recipe12</item>
         <item>recipe13</item>
         <item>recipe14</item>
@@ -35,7 +51,7 @@
         <item>recipe178</item>
         <item>recipe19</item>
         <item>recipe10</item>
-        <item>recipe11</item>
+        <item>recipe!!</item>
     </string-array>
 
 </resources>
