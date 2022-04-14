@@ -3,7 +3,7 @@ package com.example.recipeapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.content.Context;
+
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -13,7 +13,7 @@ import com.example.recipeapp.utils.RecipeDataset;
 
 import java.util.ArrayList;
 
-public class recipeinfo extends AppCompatActivity {
+public class RecipeInfo extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
@@ -34,7 +34,7 @@ public class recipeinfo extends AppCompatActivity {
 
         txt_Search=(EditText)findViewById(R.id.txt_searchtext);
 
-        recycleadaptor myadaptor = new recycleadaptor(this, s1, images);
+        RecycleAdaptor myadaptor = new RecycleAdaptor(this, s1, images);
 
         recyclerView.setAdapter(myadaptor);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
