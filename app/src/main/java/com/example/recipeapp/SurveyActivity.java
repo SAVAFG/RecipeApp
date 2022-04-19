@@ -1,6 +1,8 @@
 package com.example.recipeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.view.View;
 
 import android.os.Bundle;
@@ -23,7 +25,7 @@ public class SurveyActivity extends AppCompatActivity {
     }
 
     public void updateBirthday(View v) {
-        DatePicker simpleDatePicker = (DatePicker)findViewById(R.id.datePickerBirthday); // initiate a date picker
+        DatePicker simpleDatePicker = (DatePicker) findViewById(R.id.datePickerBirthday); // initiate a date picker
         day = simpleDatePicker.getDayOfMonth();
         month = simpleDatePicker.getMonth();
         year = simpleDatePicker.getYear();
@@ -33,6 +35,12 @@ public class SurveyActivity extends AppCompatActivity {
         CharSequence values = Integer.toString(day) + " " + Integer.toString(month) + " " + Integer.toString(year);
         Toast toasty = Toast.makeText(getApplicationContext(), values, Toast.LENGTH_LONG);
         toasty.show();
+
     }
 
+    public void FoodRestrictions (View view){
+        Intent intent = new Intent(this, FoodRestrictionsSurvey.class);
+        startActivity(intent);
+
+    }
 }
