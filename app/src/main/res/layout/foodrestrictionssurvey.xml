@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <!-- "Food Preferences" XML file -->
+    <!-- Layout for the "Food Preferences" survey page -->
     <LinearLayout
         android:id="@+id/Survey"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <!-- Large header that states "Food Preferences" -->
         <TextView
             android:id="@+id/strHeaderMainSurvey"
             android:layout_width="match_parent"
@@ -18,7 +19,7 @@
             android:gravity="center"
             android:text="@string/food_preferences"
             android:textSize="34sp" />
-
+        <!-- Medium header that states "Allergies" -->
         <TextView
             android:id="@+id/strHeaderMinorGender"
             android:layout_width="match_parent"
@@ -26,7 +27,7 @@
             android:gravity="center"
             android:text="@string/allergies"
             android:textSize="24sp" />
-
+        <!-- Radio group that contains a list of allergies -->
         <RadioGroup
             android:id="@+id/radioGroupGender"
             android:layout_width="match_parent"
@@ -34,28 +35,28 @@
             android:focusable="true"
 
             tools:ignore="UsingOnClickInXml">
-
+            <!-- Radio button under "Allergies" that contains the option "Nuts" -->
             <RadioButton
                 android:id="@+id/allergy1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="@string/nuts" />
-
+            <!-- Radio button under "Allergies" that contains the option "Gluten" -->
             <RadioButton
                 android:id="@+id/allergy2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="@string/gluten" />
-
+            <!-- Radio button under "Allergies" that contains the option "Lactose Intolerant" -->
             <RadioButton
                 android:id="@+id/allergy3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="@string/lactose_intolerant" />
-
+            <!-- Radio button under "Allergies" that contains the option "Fish" -->
             <RadioButton
                 android:id="@+id/allergy4"
                 android:layout_width="match_parent"
@@ -63,7 +64,7 @@
                 android:clickable="true"
                 android:text="@string/fish"
                 android:focusable="true" />
-
+            <!-- Radio button under "Allergies" that contains the option "Soy" -->
             <RadioButton
                 android:id="@+id/allergy5"
                 android:layout_width="match_parent"
@@ -71,7 +72,7 @@
                 android:clickable="true"
                 android:text="@string/soy"
                 android:focusable="true" />
-
+            <!-- Radio button under "Allergies" that contains the option "Wheat" -->
             <RadioButton
                 android:id="@+id/allergy6"
                 android:layout_width="match_parent"
@@ -79,7 +80,7 @@
                 android:clickable="true"
                 android:text="@string/wheat"
                 android:focusable="true" />
-
+            <!-- Radio button under "Allergies" that contains the option "Eggs" -->
             <RadioButton
                 android:id="@+id/allergy7"
                 android:layout_width="match_parent"
@@ -88,8 +89,7 @@
                 android:text="@string/eggs"
                 android:focusable="true" />
         </RadioGroup>
-
-
+        <!-- Additional option under "Allergies" that enables string input for an "Other" option -->
         <EditText
             android:id="@+id/otherAllergy"
             android:layout_width="match_parent"
@@ -99,7 +99,7 @@
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:autofillHints="" />
-
+        <!-- Medium header for "Diets" -->
         <TextView
             android:id="@+id/allergiesgeneral"
             android:layout_width="match_parent"
@@ -107,20 +107,19 @@
             android:gravity="center"
             android:text="@string/diets"
             android:textSize="24sp" />
-
-
+        <!-- Radio button under "Diets" that contains the option "Vegan" -->
         <RadioButton
             android:id="@+id/diet1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/vegan" />
-
+        <!-- Radio button under "Diets" that contains the option "Vegetarian" -->
         <RadioButton
             android:id="@+id/diet2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/vegetarian" />
-
+        <!-- Radio button under "Diets" that contains the option "Pescatarian" -->
         <RadioButton
             android:id="@+id/diet3"
             android:layout_width="match_parent"

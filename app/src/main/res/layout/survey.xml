@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <!-- Survey Page for User Biometrics -->
+    <!-- Linear Layout for User Biometrics -->
     <LinearLayout
         android:id="@+id/Survey"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <!-- Large header for "Survey" -->
         <TextView
             android:id="@+id/strHeaderMainSurvey"
             android:layout_width="match_parent"
@@ -18,7 +19,7 @@
             android:gravity="center"
             android:text="@string/surveyHeaderStr"
             android:textSize="34sp" />
-
+        <!-- Medium header for "Birthday" -->
         <TextView
             android:id="@+id/strHeaderMinorBirthday"
             android:layout_width="match_parent"
@@ -29,7 +30,7 @@
             android:text="@string/birthdayLabelStr"
             android:textSize="24sp" />
 
-
+        <!-- Date Picker widget to select birthday-->
         <DatePicker
             android:id="@+id/datePickerBirthday"
             android:layout_width="match_parent"
@@ -37,7 +38,7 @@
             android:calendarViewShown="false"
             android:datePickerMode="spinner"
             android:onClick="updateBirthday" />
-
+        <!-- Medium header for "Gender"-->
         <TextView
             android:id="@+id/strHeaderMinorGender"
             android:layout_width="match_parent"
@@ -45,7 +46,7 @@
             android:gravity="center"
             android:text="@string/GenderLabelStr"
             android:textSize="24sp" />
-
+        <!-- Radio group to house different options for user gender (options were obtained from CSUSM)-->
         <RadioGroup
             android:id="@+id/radioGroupGender"
             android:layout_width="match_parent"
@@ -53,28 +54,28 @@
             android:focusable="true"
 
             tools:ignore="UsingOnClickInXml">
-
+            <!-- Radio button that contains option for "Male" -->
             <RadioButton
                 android:id="@+id/radioButtonGenderMale"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="@string/maleCheckStr" />
-
+            <!-- Radio button that contains option for "Female" -->
             <RadioButton
                 android:id="@+id/radioButtonGenderFemale"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="@string/femaleCheckStr" />
-
+            <!-- Radio button that contains option for "Non-binary/non-conforming" -->
             <RadioButton
                 android:id="@+id/radioButtonGenderNonBinary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="@string/nonbinaryCheckStr" />
-
+            <!-- Radio button that contains option for "No Response" -->
             <RadioButton
                 android:id="@+id/radioButtonGenderNoResponse"
                 android:layout_width="match_parent"
@@ -83,7 +84,7 @@
 
                 android:text="@string/noresponseCheckStr" />
         </RadioGroup>
-
+        <!-- Medium header for "Weight" -->
         <TextView
             android:id="@+id/strHeaderMinorWeight"
             android:layout_width="match_parent"
@@ -91,7 +92,7 @@
             android:gravity="center"
             android:text="@string/WeightLabelStr"
             android:textSize="24sp" />
-
+        <!-- Input section for user weight in pounds. Only accepts positive decimals -->
         <EditText
             android:id="@+id/numDecimalWeight"
             android:layout_width="match_parent"
@@ -102,7 +103,7 @@
             android:inputType="numberDecimal"
             android:minHeight="48dp"
             tools:ignore="TextContrastCheck" />
-
+        <!-- Medium header for "Name" -->
         <TextView
             android:id="@+id/strHeaderUserName"
             android:layout_width="match_parent"
@@ -110,7 +111,7 @@
             android:gravity="center"
             android:text="@string/UserName"
             android:textSize="24sp" />
-
+        <!-- Input section for user weight in pounds. Only accepts string -->
         <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="match_parent"
@@ -121,7 +122,7 @@
             android:minHeight="48dp"
             android:textColorHint="#757575"
             android:autofillHints="" />
-
+        <!-- Button to move on to the next part of the survey -->
         <Button
             android:id="@+id/nextButton"
             android:layout_width="match_parent"

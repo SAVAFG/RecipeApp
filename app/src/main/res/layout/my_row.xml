@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
+    <!-- Adaptive Layout for Recycler View -->
+    <!-- Card View for the recycler view adaptive layout -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
-
+        <!-- Constraint layout for the recycler view-->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
+            <!-- Image of the Recipe -->
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="90dp"
@@ -24,7 +25,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/food7" />
-
+            <!-- Name of the Recipe -->
             <TextView
                 android:id="@+id/foodie"
                 android:layout_width="wrap_content"
