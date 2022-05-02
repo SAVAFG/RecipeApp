@@ -1,0 +1,208 @@
+{"recipe":[
+        {"recipe_id":240488,
+        "recipe_name":"Pork Loin, Apples, and Sauerkraut",
+        "image_url":"https:\/\/images.media-allrecipes.com\/userphotos\/720x405\/1897772.jpg",
+        "ingredients":"sauerkraut drained^Granny Smith apples sliced^large onion^caraway seeds^apple cider divided^brown sugar^Rub:^Thai seasoning^salt^garlic powder^ground black pepper^boneless pork loin roast",
+        "cooking_directions":"{'directions': u'Prep\\n15 m\\nCook\\n2 h 30 m\\nReady In\\n2 h 45 m\\nPreheat oven to 325 degrees F (165 degrees C).\\nMix sauerkraut, apples, onion, and caraway seeds in a large roasting pan. Stir 1\/4 cup apple cider and brown sugar together in a separate bowl; pour over sauerkraut mixture.\\nStir Thai seasoning, salt, garlic powder, and black pepper together in a small bowl; rub onto the top and bottom of the roast.\\nMake an indentation in the center of the sauerkraut mixture and place the seasoned roast in the indentation. Pour the remaining apple cider around the roast.\\nBake in the preheated oven for 1 hour; baste roast with juices. Continue baking roast, basting every 30 minutes, until cooked through, 2 1\/2 to 3 hours. An instant-read thermometer inserted into the center should read at least 145 degrees F (63 degrees C).'}",
+        "nutritions":
+		{
+		"niacin":
+			{
+			"hasCompleteData":false,
+			"name":"Niacin Equivalents",
+			"amount":15.6016,
+			"percentDailyValue":"120",
+			"displayValue":"16",
+			"unit":"mg"
+			},
+		"sugars":
+			{
+			"hasCompleteData":false,
+			"name":"Sugars",
+			"amount":19.84146,
+			"percentDailyValue":"0",
+			"displayValue":"19.8",
+			"unit":"g"
+			},
+		"sodium":
+			{
+			"hasCompleteData":false,
+			"name":"Sodium",
+			"amount":2606.764,
+			"percentDailyValue":"104",
+			"displayValue":"2607",
+			"unit":"mg"
+			},
+		"carbohydrates":
+			{
+			"hasCompleteData":true,
+			"name":"Carbohydrates",
+			"amount":32.08176,
+			"percentDailyValue":"10",
+			"displayValue":"32.1",
+			"unit":"g"
+			},
+		"vitaminB6":
+			{
+			"hasCompleteData":false,
+			"name":"Vitamin B6",
+			"amount": 1.328631,
+			"percentDailyValue":"83",
+			"displayValue":"1",
+			"unit":"mg"
+			},
+		"calories":
+			{
+			"hasCompleteData":true,
+			"name":"Calories",
+			"amount":371.7219,
+			"percentDailyValue":"19",
+			"displayValue":"372",
+			"unit":"kcal"
+			},
+		"thiamin":
+			{
+			"hasCompleteData":false,
+			"name":"Thiamin",
+			"amount":0.8423121,
+			"percentDailyValue":"84",
+			"displayValue":"< 1",
+			"unit":"mg"
+			},
+		"fat":
+			{
+			"hasCompleteData":true,
+			"name":"Fat",
+			"amount":11.67521,
+			"percentDailyValue":"18",
+			"displayValue":"11.7",
+			"unit":"g"
+			},
+		"folate":
+			{
+			"hasCompleteData":false,
+			"name":"Folate",
+			"amount":83.73925,
+			"percentDailyValue":"47",
+			"displayValue":"84",
+			"unit":"mcg"
+			},
+		"caloriesFromFat":
+			{
+			"hasCompleteData":true,
+			"name":"Calories from Fat",
+			"amount":105.0769,
+			"percentDailyValue": "-",
+			"displayValue":"105",
+			"unit":"kcal"
+			},
+		"calcium":
+			{
+			"hasCompleteData":true,
+			"name":"Calcium",
+			"amount": 135.4538,
+			"percentDailyValue": "17",
+			"displayValue": "135",
+			"unit":"mg"
+			},
+		"fiber":
+			{
+			"hasCompleteData":false,
+			"name": "Dietary Fiber",
+			"amount": 10.22336,
+			"percentDailyValue": "41",
+			"displayValue": "10.2",
+			"unit": "g"},
+		"magnesium": 
+			{
+			"hasCompleteData":false,
+			"name": "Magnesium",
+			"amount": 80.73712,
+			"percentDailyValue": "29", 
+			"displayValue": "81",
+			"unit": "mg"
+			},
+		"iron":
+			{
+			"hasCompleteData":true,
+			"name": "Iron",
+			"amount": 6.622245,
+			"percentDailyValue": "66",
+			"displayValue": "7",
+			"unit": "mg"
+			},
+		"cholesterol":
+			{
+			"hasCompleteData":false,
+			"name": "Cholesterol",
+			"amount": 99.2,
+			"percentDailyValue": "33",
+			"displayValue": "99",
+			"unit": "mg"
+			},
+		"protein":
+			{
+			"hasCompleteData":true,
+			"name": "Protein",
+			"amount": 36.39878,
+			"percentDailyValue": "73",
+			"displayValue": "36.4",
+			"unit": "g"
+			},
+		"vitaminA":
+			{
+			"hasCompleteData":false,
+			"name": "Vitamin A - IU",
+			"amount": 73.17785,
+			"percentDailyValue": "1",
+			"displayValue": "73", 
+			"unit": "IU"
+			},
+		"potassium":
+			{
+			"hasCompleteData":false, 
+			"name": "Potassium",
+			"amount": 1088.923, 
+			"percentDailyValue": "31", 
+			"displayValue": "1089", 
+			"unit": "mg"
+			},
+		"saturatedFat":
+			{
+			"hasCompleteData":false, 
+			"name": "Saturated Fat", 
+			"amount": 3.646474, 
+			"percentDailyValue": "18", 
+			"displayValue": "3.6", 
+			"unit": "g"
+			}, 
+		"vitaminC":
+			{
+			"hasCompleteData":false, 
+			"name": "Vitamin C", 
+			"amount": 52.76848, 
+			"percentDailyValue": "88",
+			"displayValue": "53",
+			"unit": "mg"
+			}
+        }
+        },
+		{
+        "recipe_id":218939,
+        "recipe_name":"Foolproof Rosemary Chicken Wings",
+        "image_url":"https:\/\/images.media-allrecipes.com\/userphotos\/720x405\/3852182.jpg",
+        "ingredients":"chicken wings^sprigs rosemary^head garlic^olive oil^lemon pepper^seasoned salt",
+        "cooking_directions":"{'directions': u\"Prep\\n20 m\\nCook\\n40 m\\nReady In\\n1 h\\nPreheat an oven to 350 degrees F (175 degrees C).\\nArrange the chicken wings, rosemary, and garlic cloves on a broiler-proof baking sheet, making sure the chicken pieces are not touching. Drizzle the olive oil over the chicken and garlic. Season the wings on all sides with the lemon pepper and seasoned salt.\\nBake in the preheated oven until chicken meat is no longer pink at the bone and the juices run clear, 35 to 40 minutes, turning the wings once about halfway through the cooking time. An instant-read thermometer inserted into the thickest part of a wing should read at least 160 degrees F (70 degrees C).\\nTake the baking sheet from the oven and set the oven's broiler to High. Remove the garlic and rosemary from the sheet and set aside. Turn the wings again.\\nBroil the wings until golden brown, about 5 minutes. Garnish with the rosemary sprigs and garlic to serve.\"}",
+        "nutritions":{"niacin": {"hasCompleteData": true, "name": "Niacin Equivalents", "amount": 10.06679, "percentDailyValue": "77", "displayValue": "10", "unit": "mg"}, "sugars": {"hasCompleteData": false, "name": "Sugars", "amount": 0.2361299, "percentDailyValue": "0", "displayValue": "0.2", "unit": "g"}, "sodium": {"hasCompleteData": true, "name": "Sodium", "amount": 762.805, "percentDailyValue": "31", "displayValue": "763", "unit": "mg"}, "carbohydrates": {"hasCompleteData": true, "name": "Carbohydrates", "amount": 6.071931, "percentDailyValue": "2", "displayValue": "6.1", "unit": "g"}, "vitaminB6": {"hasCompleteData": true, "name": "Vitamin B6", "amount": 0.5538, "percentDailyValue": "35", "displayValue": "< 1", "unit": "mg"}, "calories": {"hasCompleteData": true, "name": "Calories", "amount": 335.1655, "percentDailyValue": "17", "displayValue": "335", "unit": "kcal"}, "thiamin": {"hasCompleteData": false, "name": "Thiamin", "amount": 0.06496, "percentDailyValue": "6", "displayValue": "< 1", "unit": "mg"}, "fat": {"hasCompleteData": true, "name": "Fat", "amount": 23.62519, "percentDailyValue": "36", "displayValue": "23.6", "unit": "g"}, "folate": {"hasCompleteData": true, "name": "Folate", "amount": 6.907802, "percentDailyValue": "4", "displayValue": "7", "unit": "mcg"}, "caloriesFromFat": {"hasCompleteData": true, "name": "Calories from Fat", "amount": 212.6267, "percentDailyValue": "-", "displayValue": "213", "unit": "kcal"}, "calcium": {"hasCompleteData": true, "name": "Calcium", "amount": 60.08832, "percentDailyValue": "8", "displayValue": "60", "unit": "mg"}, "fiber": {"hasCompleteData": true, "name": "Dietary Fiber", "amount": 0.8866814, "percentDailyValue": "4", "displayValue": "0.9", "unit": "g"}, "magnesium": {"hasCompleteData": true, "name": "Magnesium", "amount": 24.21298, "percentDailyValue": "9", "displayValue": "24", "unit": "mg"}, "iron": {"hasCompleteData": true, "name": "Iron", "amount": 1.704567, "percentDailyValue": "17", "displayValue": "2", "unit": "mg"}, "cholesterol": {"hasCompleteData": true, "name": "Cholesterol", "amount": 71.4, "percentDailyValue": "24", "displayValue": "71", "unit": "mg"}, "protein": {"hasCompleteData": true, "name": "Protein", "amount": 23.91265, "percentDailyValue": "48", "displayValue": "23.9", "unit": "g"}, "vitaminA": {"hasCompleteData": true, "name": "Vitamin A - I", "amount": 359.364, "percentDailyValue": "7", "displayValue": "359", "unit": "I"}, "potassium": {"hasCompleteData": true, "name": "Potassium", "amount": 249.1827, "percentDailyValue": "7", "displayValue": "249", "unit": "mg"}, "saturatedFat": {"hasCompleteData": true, "name": "Saturated Fat", "amount": 5.683611, "percentDailyValue": "28", "displayValue": "5.7", "unit": "g"}, "vitaminC": {"hasCompleteData": true, "name": "Vitamin C", "amount": 5.307448, "percentDailyValue": "9", "displayValue": "5", "unit": "mg"
+}
+                     }
+        },
+  {
+        "recipe_id":87211,
+        "recipe_name":"Chicken Pesto Paninis",
+        "image_url":"https:\/\/images.media-allrecipes.com\/userphotos\/720x405\/956156.jpg",
+        "ingredients":"focaccia bread quartered^prepared basil pesto^diced cooked chicken^diced green bell pepper^diced red onion^shredded Monterey Jack cheese",
+        "cooking_directions":"{'directions': u'Prep\\n15 m\\nCook\\n5 m\\nReady In\\n20 m\\nPreheat a panini grill.\\nSlice each quarter of focaccia bread in half horizontally. Spread each half with pesto. Layer bottom halves with equal amounts chicken, bell pepper, onion, and cheese. Top with remaining focaccia halves, forming 4 sandwiches.\\nGrill paninis 5 minutes in the preheated grill, or until focaccia bread is golden brown and cheese is melted.'}",
+        "nutritions":{"niacin": {"hasCompleteData": true, "name": "Niacin Equivalents", "amount": 13.22826, "percentDailyValue": "102", "displayValue": "13", "unit": "mg"}, "sugars": {"hasCompleteData": false, "name": "Sugars", "amount": 1.97421, "percentDailyValue": "0", "displayValue": "2", "unit": "g"}, "sodium": {"hasCompleteData": true, "name": "Sodium", "amount": 1075.527, "percentDailyValue": "43", "displayValue": "1076", "unit": "mg"}, "carbohydrates": {"hasCompleteData": true, "name": "Carbohydrates", "amount": 60.85943, "percentDailyValue": "20", "displayValue": "60.9", "unit": "g"}, "vitaminB6": {"hasCompleteData": true, "name": "Vitamin B6", "amount": 0.2734955, "percentDailyValue": "17", "displayValue": "< 1", "unit": "mg"}, "calories": {"hasCompleteData": true, "name": "Calories", "amount": 640.5617, "percentDailyValue": "32", "displayValue": "641", "unit": "kcal"}, "thiamin": {"hasCompleteData": false, "name": "Thiamin", "amount": 0.03088, "percentDailyValue": "3", "displayValue": "< 1", "unit": "mg"}, "fat": {"hasCompleteData": true, "name": "Fat", "amount": 29.36761, "percentDailyValue": "45", "displayValue": "29.4", "unit": "g"}, "folate": {"hasCompleteData": true, "name": "Folate", "amount": 234.2137, "percentDailyValue": "130", "displayValue": "234", "unit": "mcg"}, "caloriesFromFat": {"hasCompleteData": true, "name": "Calories from Fat", "amount": 264.3085, "percentDailyValue": "-", "displayValue": "264", "unit": "kcal"}, "calcium": {"hasCompleteData": true, "name": "Calcium", "amount": 528.4617, "percentDailyValue": "66", "displayValue": "528", "unit": "mg"}, "fiber": {"hasCompleteData": true, "name": "Dietary Fiber", "amount": 4.441335, "percentDailyValue": "18", "displayValue": "4.4", "unit": "g"}, "magnesium": {"hasCompleteData": true, "name": "Magnesium", "amount": 64.67662, "percentDailyValue": "23", "displayValue": "65", "unit": "mg"}, "iron": {"hasCompleteData": true, "name": "Iron", "amount": 5.01162, "percentDailyValue": "50", "displayValue": "5", "unit": "mg"}, "cholesterol": {"hasCompleteData": true, "name": "Cholesterol", "amount": 61.38938, "percentDailyValue": "20", "displayValue": "61", "unit": "mg"}, "protein": {"hasCompleteData": true, "name": "Protein", "amount": 32.37537, "percentDailyValue": "65", "displayValue": "32.4", "unit": "g"}, "vitaminA": {"hasCompleteData": true, "name": "Vitamin A - I", "amount": 604.7537, "percentDailyValue": "12", "displayValue": "605", "unit": "I"}, "potassium": {"hasCompleteData": true, "name": "Potassium", "amount": 348.8067, "percentDailyValue": "10", "displayValue": "349", "unit": "mg"}, "saturatedFat": {"hasCompleteData": true, "name": "Saturated Fat", "amount": 10.91876, "percentDailyValue": "55", "displayValue": "10.9", "unit": "g"}, "vitaminC": {"hasCompleteData": true, "name": "Vitamin C", "amount": 18.01502, "percentDailyValue": "30", "displayValue": "18", "unit": "mg"}}
+  }
+]}

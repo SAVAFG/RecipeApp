@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GitSharedSettings">
-    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
+  <component name="GithubSharedProjectSettings">
+    <option name="branchProtectionPatterns">
       <list>
-        <option value="main" />
+        <option value="disable-push" />
       </list>
     </option>
   </component>
