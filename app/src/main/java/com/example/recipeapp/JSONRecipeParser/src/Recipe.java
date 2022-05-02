@@ -1,4 +1,4 @@
-package com.example.recipeapp.utils;
+package com.example.recipeapp.JSONRecipeParser.src;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,12 +12,12 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-        "recipe_id",
-        "recipe_name",
-        "image_url",
-        "ingredients",
-        "cooking_directions",
-        "nutrition_info"
+    "recipe_id",
+    "recipe_name",
+    "image_url",
+    "ingredients",
+    "cooking_directions",
+    "nutritions"
 })
 @Generated("jsonschema2pojo")
 public class Recipe {
@@ -32,36 +32,10 @@ public class Recipe {
     private String ingredients;
     @JsonProperty("cooking_directions")
     private String cookingDirections;
-    @JsonProperty("nutrition_info")
-    private String nutritionInfo;
+    @JsonProperty("nutritions")
+    private Nutritions nutritions;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-
-    /**
-     * No args constructor for use in serialization
-     *
-     */
-    public Recipe() {
-    }
-
-    /**
-     *
-     * @param recipeName
-     * @param cookingDirections
-     * @param nutritionInfo
-     * @param imageUrl
-     * @param ingredients
-     * @param recipeId
-     */
-    public Recipe(Integer recipeId, String recipeName, String imageUrl, String ingredients, String cookingDirections, String nutritionInfo) {
-        super();
-        this.recipeId = recipeId;
-        this.recipeName = recipeName;
-        this.imageUrl = imageUrl;
-        this.ingredients = ingredients;
-        this.cookingDirections = cookingDirections;
-        this.nutritionInfo = nutritionInfo;
-    }
 
     @JsonProperty("recipe_id")
     public Integer getRecipeId() {
@@ -113,14 +87,14 @@ public class Recipe {
         this.cookingDirections = cookingDirections;
     }
 
-    @JsonProperty("nutrition_info")
-    public String getNutritionInfo() {
-        return nutritionInfo;
+    @JsonProperty("nutritions")
+    public Nutritions getNutritions() {
+        return nutritions;
     }
 
-    @JsonProperty("nutrition_info")
-    public void setNutritionInfo(String nutritionInfo) {
-        this.nutritionInfo = nutritionInfo;
+    @JsonProperty("nutritions")
+    public void setNutritions(Nutritions nutritions) {
+        this.nutritions = nutritions;
     }
 
     @JsonAnyGetter
@@ -157,9 +131,9 @@ public class Recipe {
         sb.append('=');
         sb.append(((this.cookingDirections == null)?"<null>":this.cookingDirections));
         sb.append(',');
-        sb.append("nutritionInfo");
+        sb.append("nutritions");
         sb.append('=');
-        sb.append(((this.nutritionInfo == null)?"<null>":this.nutritionInfo));
+        sb.append(((this.nutritions == null)?"<null>":this.nutritions));
         sb.append(',');
         sb.append("additionalProperties");
         sb.append('=');
