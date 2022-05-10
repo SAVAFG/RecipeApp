@@ -38,6 +38,8 @@
     <string name="nuts">Nuts</string>
     <string name="allergies">Allergies</string>
     <string name="food_preferences">Food Preferences</string>
+    <string name="app_label">RecipeApp</string>
+    <string name="search_hint">Enter a recipe (str)</string>
 
     <string-array name="recipenamesexample">
         <item>recipe!</item>
@@ -50,5 +52,9 @@
         <item>recipe10</item>
         <item>recipe!!</item>
     </string-array>
+
+    <string name="create_profile">Press to create a new profile</string>
+    <string name="person_name">Name of Person</string>
+    <string name="birthdayProfileLabel">Birthday of User</string>
 
 </resources>

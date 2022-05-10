@@ -124,12 +124,20 @@
             android:autofillHints="" />
         <!-- Button to move on to the next part of the survey -->
         <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
             android:id="@+id/nextButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="FoodRestrictions"
             android:text="@string/nextButton"
             android:textSize="20sp" />
+
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
