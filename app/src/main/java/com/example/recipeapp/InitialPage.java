@@ -7,7 +7,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.recipeapp.JSONRecipeParser.src.JSONRecipeParser;
+import com.example.recipeapp.data.JSONRecipeParser;
 
 import java.io.File;
 
