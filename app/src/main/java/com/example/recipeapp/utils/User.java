@@ -1,9 +1,6 @@
 package com.example.recipeapp.utils;
-
 import android.os.Build;
-
 import androidx.annotation.RequiresApi;
-
 import java.util.ArrayList;
 import java.util.Calendar;
 import static java.util.Calendar.*;
