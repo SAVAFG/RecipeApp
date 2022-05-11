@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.util.Log;
 import android.view.View;
 
@@ -34,19 +35,30 @@ public class SurveyActivity extends AppCompatActivity {
 
     SharedPreferences sharedpreferences;
 
-    public static final String MyPREFERENCES = "UserData" ;
-    public static final String Day = "dayKey";
-    public static final String Month = "monthKey";
-    public static final String Year = "yearKey";
-    public static final String Gender = "genderKey";
-    public static final String Name = "nameKey";
-    public static final String Weight = "weightKey";
+    Resources res;
+    String[] keys;
+
+    public static final String user1 = "user1";
+    public static final String user2 = "user2";
+    public static final String user3 = "user3";
+
+
+    public static int counter;
+    public static final String DAY = "dayKey";
+    public static final String MONTH = "monthKey";
+    public static final String YEAR = "yearKey";
+    public static final String GENDER = "genderKey";
+    public static final String NAME = "nameKey";
+    public static final String WEIGHT = "weightKey";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.survey);
+
+        res = getResources();
+        keys = res.getStringArray(R.array.users);
 
         date_picker = findViewById(R.id.datePickerBirthday);
 
@@ -59,6 +71,7 @@ public class SurveyActivity extends AppCompatActivity {
 
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,6 +82,9 @@ public class SurveyActivity extends AppCompatActivity {
                 year  = date_picker.getYear();
                 weight = (int) Double.parseDouble(String.valueOf(text_weight.getText()));
                 name = String.valueOf(text_name.getText());
+
+                MyPREFERENCES = name;
+
                 int selectedId = genderGroup.getCheckedRadioButtonId();
                 selectedGender = findViewById(selectedId);
 
@@ -79,23 +95,23 @@ public class SurveyActivity extends AppCompatActivity {
 
 
 
-                editor.putInt(Day, day);
-                editor.putInt(Month, month);
-                editor.putInt(Year, year);
-                editor.putString(Gender, gender);
-                editor.putString(Name, name);
-                editor.putInt(Weight, weight);
+                editor.putInt(DAY, day);
+                editor.putInt(MONTH, month);
+                editor.putInt(YEAR, year);
+                editor.putString(GENDER, gender);
+                editor.putString(NAME, name);
+                editor.putInt(WEIGHT, weight);
 
 
                 editor.commit();
 
                 //Log.d(Day, Integer.toString(day));
-                Log.d(Day, Integer.toString(sharedpreferences.getInt(Day, -1)));
-                Log.d(Month, Integer.toString(month));
-                Log.d(Year, Integer.toString(year));
-                Log.d(Weight, Integer.toString(weight));
-                Log.d(Name, name);
-                Log.d(Gender, gender);
+                Log.d(DAY, Integer.toString(sharedpreferences.getInt(DAY, -1)));
+                Log.d(MONTH, Integer.toString(month));
+                Log.d(YEAR, Integer.toString(year));
+                Log.d(WEIGHT, Integer.toString(weight));
+                Log.d(NAME, name);
+                Log.d(GENDER, gender);
 
                 //Toast.makeText(SurveyActivity.this,"Thanks",Toast.LENGTH_LONG).show();
                 //Toast.makeText(SurveyActivity.this,name,Toast.LENGTH_LONG).show();
@@ -108,7 +124,7 @@ public class SurveyActivity extends AppCompatActivity {
 
     public void FoodRestrictions (View view){
         Intent intent = new Intent(this, FoodRestrictionsSurvey.class);
-        startActivity(intent);
+
 
     }
 }

@@ -18,10 +18,11 @@ public class RecycleAdaptor extends RecyclerView.Adapter<RecycleAdaptor.MyViewHo
     public RecycleAdaptor(Context ct, String[] s1, int[] img) {
         context = ct;
         data1 = s1;
-
         images = img;
 
     }
+
+
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

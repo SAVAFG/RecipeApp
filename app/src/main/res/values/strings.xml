@@ -57,4 +57,11 @@
     <string name="person_name">Name of Person</string>
     <string name="birthdayProfileLabel">Birthday of User</string>
 
+    <string-array name="users">
+        <item>user1</item>
+        <item>user2</item>
+        <item>user3</item>
+        <item>user4</item>
+    </string-array>
+
 </resources>
