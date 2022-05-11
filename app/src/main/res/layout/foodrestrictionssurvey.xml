@@ -90,16 +90,6 @@
         </RadioGroup>
 
 
-        <EditText
-            android:id="@+id/otherAllergy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/other_allergy"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:autofillHints="" />
-
         <TextView
             android:id="@+id/allergiesgeneral"
             android:layout_width="match_parent"
@@ -130,21 +120,11 @@
             android:focusable="true" />
 
 
-        <EditText
-            android:id="@+id/otherDiet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/other_diet"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:autofillHints="" />
-
         <Button
             android:id="@+id/nextButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="RecipeOptions"
+            android:onClick="RecipeDisplay"
             android:text="@string/nextButton"
             android:textSize="20sp" />
 

@@ -20,7 +20,7 @@ public class InitialPage extends AppCompatActivity {
         JSONRecipeParser parser = new JSONRecipeParser();
 
         Resources resources = this.getResources();
-        parser.getRecipes(resources.openRawResource(R.raw.sample_recipe_data));
+        parser.getRecipes(resources.openRawResource(R.raw.core_data));
     }
 
     public void sendSurvey (View view){
