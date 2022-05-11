@@ -2,11 +2,16 @@ package com.example.recipeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 
+import com.example.recipeapp.data.JSONRecipeParser;
+import com.example.recipeapp.data.Recipe;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,9 +20,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference ref = storage.getReference();
-        StorageReference csv = ref.child("utils/core-data_recipe.csv");
-        csv.putFile(Uri.parse("utils/core-data_recipe.csv"));
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        //populateFirestore();
+    }
+
+    // move the base data file into Firebase Firestore.
+    private void populateFirestore(){
+        final Controller c = (Controller) getApplicationContext();
+        ArrayList<Recipe> recipes;
+        Resources resources = this.getResources();
+        JSONRecipeParser parser = new JSONRecipeParser();
+        recipes = parser.getRecipes(resources.openRawResource(R.raw.core_data));
+
+        for(Recipe recipe : recipes){
+            c.addRecipe(recipe);
+            break;
+        }
     }
 }
