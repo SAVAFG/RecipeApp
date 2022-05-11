@@ -29,15 +29,15 @@ public class RecipeInfo extends AppCompatActivity {
         Resources resources = this.getResources();
         parser.getRecipes(resources.openRawResource(R.raw.core_data));
 
-        final JSONRecipeParser aController = (JSONRecipeParser) getApplicationContext();
-        Recipe [] recipes = aController.getRecipeList();
+        final Controller aController = (Controller) getApplicationContext();
+        ArrayList<Recipe> recipes = aController.getRecipes();
         ArrayList<String> names = new ArrayList<>();
         ArrayList<String> urls = new ArrayList<>();
 
-        for(int i = 0; i < recipes.length; i++) {
-            String name = recipes[i].getRecipeName();
+        for(int i = 0; i < recipes.size(); i++) {
+            String name = recipes.get(i).getRecipeName();
             names.add(name);
-            String links = recipes[i].getImageUrl();
+            String links = recipes.get(i).getImageUrl();
             urls.add(links);
         }
 
