@@ -8,7 +8,6 @@ import android.os.Bundle;
 
 import com.example.recipeapp.data.JSONRecipeParser;
 import com.example.recipeapp.data.Recipe;
-import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
@@ -20,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        System.out.println("sus");
-        populateFirestore();
-        System.out.println("sus2");
+        //populateFirestore();
     }
 
     // move the base data file into Firebase Firestore.
