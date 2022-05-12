@@ -12,11 +12,9 @@ public class FoodRestrictionsSurvey extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.foodrestrictionssurvey);
-
     }
-
-    public void RecipeOptions(View view) {
-        Intent intent = new Intent(this, RecipeInfo.class);
-        startActivity(intent);
-    }
+        public void RecipeDisplay (View view) {
+            Intent intent = new Intent(this,RecycleAdaptor.class);
+            startActivity(intent);
+        }
 }
