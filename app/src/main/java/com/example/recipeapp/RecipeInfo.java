@@ -6,13 +6,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.EditText;
 
 import com.example.recipeapp.data.JSONRecipeParser;
 import com.example.recipeapp.data.Recipe;
 
-import java.net.URL;
 import java.util.ArrayList;
 
 public class RecipeInfo extends AppCompatActivity {
@@ -29,8 +26,8 @@ public class RecipeInfo extends AppCompatActivity {
         Resources resources = this.getResources();
         parser.getRecipes(resources.openRawResource(R.raw.core_data));
 
-        final Controller aController = (Controller) getApplicationContext();
-        ArrayList<Recipe> recipes = aController.getRecipes();
+        final RecipeController aRecipeController = (RecipeController) getApplicationContext();
+        ArrayList<Recipe> recipes = aRecipeController.getRecipes();
         ArrayList<String> names = new ArrayList<>();
         ArrayList<String> urls = new ArrayList<>();
 

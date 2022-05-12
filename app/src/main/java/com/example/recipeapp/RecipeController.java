@@ -15,7 +15,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.ArrayList;
 
-public class Controller extends Application {
+public class RecipeController extends Application {
     private ArrayList<Recipe> recipes;
 
     public void loadRecipes(){

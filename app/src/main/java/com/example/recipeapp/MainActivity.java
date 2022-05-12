@@ -3,13 +3,10 @@ package com.example.recipeapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.res.Resources;
-import android.net.Uri;
 import android.os.Bundle;
 
 import com.example.recipeapp.data.JSONRecipeParser;
 import com.example.recipeapp.data.Recipe;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 
@@ -31,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     // move the base data file into Firebase Firestore.
     private void populateFirestore(){
-        final Controller c = (Controller) getApplicationContext();
+        final RecipeController c = (RecipeController) getApplicationContext();
         ArrayList<Recipe> recipes;
         Resources resources = this.getResources();
         JSONRecipeParser parser = new JSONRecipeParser();
