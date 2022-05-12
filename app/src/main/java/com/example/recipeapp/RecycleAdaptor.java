@@ -15,17 +15,18 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.net.URI;
 import java.util.ArrayList;
 
    public class RecycleAdaptor extends RecyclerView.Adapter<RecycleAdaptor.MyViewHolder> {
-       ArrayList<String> saaya;
+       ArrayList<String> names;
        ArrayList<String> urls;
        Context context;
 
-       public RecycleAdaptor(Context ct, ArrayList<String> s1, ArrayList<String> img) {
+       public RecycleAdaptor(Context ct, ArrayList<String> s1, ArrayList<String> imgUrls) {
            context = ct;
-           saaya = s1;
-           urls = img;
+           names = s1;
+           urls = imgUrls;
        }
 
        @NonNull
@@ -39,9 +40,9 @@ import java.util.ArrayList;
        @Override
        public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
-           for (int i = 0; i < names.length(); i++) {
+           for (int i = 0; i < names.size(); i++) {
                holder.myText1.setText(names.get(i));
-               // holder.myImage.setImageResource(images.get(position));
+               holder.myImage.setImageResource();
            }
        }
 
@@ -49,6 +50,8 @@ import java.util.ArrayList;
        public int getItemCount() {
            return 0;
        }
+
+
 
 
        public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -60,6 +63,8 @@ import java.util.ArrayList;
                super(itemView);
                myText1 = itemView.findViewById(R.id.foodie);
                //     myImage = itemView.findViewById(R.id.imageView);
+
+
            }
        }
 
@@ -68,24 +73,30 @@ import java.util.ArrayList;
          //  images(i).Picasso.get().load(images).placeholder(R.drawable.homepagerecipeapp).into(imageView);
         }
 
+        public void URLStoImage(ArrayList<String> urls){
+           for(String url : urls){
+                return;
+           }
+        }
+
        public class getRecipeNames extends RecipeInfo {
 
-           final JSONRecipeParser aController = (JSONRecipeParser) getApplicationContext();
-           Recipe[] recipes = aController.getRecipeList();
+           final Controller aController = (Controller) getApplicationContext();
+           ArrayList<Recipe> recipes = aController.getRecipes();
            ArrayList<String> names = new ArrayList<>();
 
-            for(int i = 0; i < recipes.length; i++) {
+            for(int i = 0; i < recipes.size(); i++) {
                String name = recipes[i].getRecipeName();
                names.add(name);
             }}
 
        public class getRecipeURLS extends RecipeInfo {
 
-           final JSONRecipeParser aController = (JSONRecipeParser) getApplicationContext();
-           Recipe[] recipes = aController.getRecipeList();
+           final Controller aController = (Controller) getApplicationContext();
+           ArrayList<Recipe> recipes = aController.getRecipes();
            ArrayList<String> urls = new ArrayList<>();
 
-            for(int i = 0; i < recipes.length; i++) {
+           for(int i = 0; i < recipes.size(); i++) {
                String url = recipes[i].getImageUrl();
                urls.add(url);
            }}
