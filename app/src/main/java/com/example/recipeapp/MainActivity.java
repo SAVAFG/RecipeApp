@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     // move the base data file into Firebase Firestore.
     private void populateFirestore(){
         final RecipeController c = (RecipeController) getApplicationContext();
-        ArrayList<Recipe> recipes;
+        Recipe[] recipes;
         Resources resources = this.getResources();
         JSONRecipeParser parser = new JSONRecipeParser();
         recipes = parser.getRecipes(resources.openRawResource(R.raw.core_data));

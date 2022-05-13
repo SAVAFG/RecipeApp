@@ -1,0 +1,3757 @@
+[
+    {
+        "recipe_id": 240488,
+        "recipe_name": "Pork Loin, Apples, and Sauerkraut",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/1897772.jpg",
+        "ingredients": [
+            "sauerkraut drained",
+            "Granny Smith apples sliced",
+            "large onion",
+            "caraway seeds",
+            "apple cider divided",
+            "brown sugar",
+            "Rub:",
+            "Thai seasoning",
+            "salt",
+            "garlic powder",
+            "ground black pepper",
+            "boneless pork loin roast"
+        ],
+        "cooking_directions": "Prep\n15 m\nCook\n2 h 30 m\nReady In\n2 h 45 m\nPreheat oven to 325 degrees F (165 degrees C).\nMix sauerkraut, apples, onion, and caraway seeds in a large roasting pan. Stir 1/4 cup apple cider and brown sugar together in a separate bowl; pour over sauerkraut mixture.\nStir Thai seasoning, salt, garlic powder, and black pepper together in a small bowl; rub onto the top and bottom of the roast.\nMake an indentation in the center of the sauerkraut mixture and place the seasoned roast in the indentation. Pour the remaining apple cider around the roast.\nBake in the preheated oven for 1 hour; baste roast with juices. Continue baking roast, basting every 30 minutes, until cooked through, 2 1/2 to 3 hours. An instant-read thermometer inserted into the center should read at least 145 degrees F (63 degrees C).",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 15.6016,
+                "percentDailyValue": "120",
+                "displayValue": "16",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 19.84146,
+                "percentDailyValue": "0",
+                "displayValue": "19.8",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": false,
+                "name": "Sodium",
+                "amount": 2606.764,
+                "percentDailyValue": "104",
+                "displayValue": "2607",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 32.08176,
+                "percentDailyValue": "10",
+                "displayValue": "32.1",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 1.328631,
+                "percentDailyValue": "83",
+                "displayValue": "1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 371.7219,
+                "percentDailyValue": "19",
+                "displayValue": "372",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.8423121,
+                "percentDailyValue": "84",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 11.67521,
+                "percentDailyValue": "18",
+                "displayValue": "11.7",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 83.73925,
+                "percentDailyValue": "47",
+                "displayValue": "84",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 105.0769,
+                "percentDailyValue": "-",
+                "displayValue": "105",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 135.4538,
+                "percentDailyValue": "17",
+                "displayValue": "135",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": false,
+                "name": "Dietary Fiber",
+                "amount": 10.22336,
+                "percentDailyValue": "41",
+                "displayValue": "10.2",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 80.73712,
+                "percentDailyValue": "29",
+                "displayValue": "81",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 6.622245,
+                "percentDailyValue": "66",
+                "displayValue": "7",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": false,
+                "name": "Cholesterol",
+                "amount": 99.2,
+                "percentDailyValue": "33",
+                "displayValue": "99",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 36.39878,
+                "percentDailyValue": "73",
+                "displayValue": "36.4",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": false,
+                "name": "Vitamin A - IU",
+                "amount": 73.17785,
+                "percentDailyValue": "1",
+                "displayValue": "73",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 1088.923,
+                "percentDailyValue": "31",
+                "displayValue": "1089",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": false,
+                "name": "Saturated Fat",
+                "amount": 3.646474,
+                "percentDailyValue": "18",
+                "displayValue": "3.6",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": false,
+                "name": "Vitamin C",
+                "amount": 52.76848,
+                "percentDailyValue": "88",
+                "displayValue": "53",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 218939,
+        "recipe_name": "Foolproof Rosemary Chicken Wings",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/3852182.jpg",
+        "ingredients": [
+            "chicken wings",
+            "sprigs rosemary",
+            "head garlic",
+            "olive oil",
+            "lemon pepper",
+            "seasoned salt"
+        ],
+        "cooking_directions": "Prep\n20 m\nCook\n40 m\nReady In\n1 h\nPreheat an oven to 350 degrees F (175 degrees C).\nArrange the chicken wings, rosemary, and garlic cloves on a broiler-proof baking sheet, making sure the chicken pieces are not touching. Drizzle the olive oil over the chicken and garlic. Season the wings on all sides with the lemon pepper and seasoned salt.\nBake in the preheated oven until chicken meat is no longer pink at the bone and the juices run clear, 35 to 40 minutes, turning the wings once about halfway through the cooking time. An instant-read thermometer inserted into the thickest part of a wing should read at least 160 degrees F (70 degrees C).\nTake the baking sheet from the oven and set the oven's broiler to High. Remove the garlic and rosemary from the sheet and set aside. Turn the wings again.\nBroil the wings until golden brown, about 5 minutes. Garnish with the rosemary sprigs and garlic to serve.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 10.06679,
+                "percentDailyValue": "77",
+                "displayValue": "10",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 0.2361299,
+                "percentDailyValue": "0",
+                "displayValue": "0.2",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 762.805,
+                "percentDailyValue": "31",
+                "displayValue": "763",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 6.071931,
+                "percentDailyValue": "2",
+                "displayValue": "6.1",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": true,
+                "name": "Vitamin B6",
+                "amount": 0.5538,
+                "percentDailyValue": "35",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 335.1655,
+                "percentDailyValue": "17",
+                "displayValue": "335",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.06496,
+                "percentDailyValue": "6",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 23.62519,
+                "percentDailyValue": "36",
+                "displayValue": "23.6",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 6.907802,
+                "percentDailyValue": "4",
+                "displayValue": "7",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 212.6267,
+                "percentDailyValue": "-",
+                "displayValue": "213",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 60.08832,
+                "percentDailyValue": "8",
+                "displayValue": "60",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 0.8866814,
+                "percentDailyValue": "4",
+                "displayValue": "0.9",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": true,
+                "name": "Magnesium",
+                "amount": 24.21298,
+                "percentDailyValue": "9",
+                "displayValue": "24",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 1.704567,
+                "percentDailyValue": "17",
+                "displayValue": "2",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 71.4,
+                "percentDailyValue": "24",
+                "displayValue": "71",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 23.91265,
+                "percentDailyValue": "48",
+                "displayValue": "23.9",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 359.364,
+                "percentDailyValue": "7",
+                "displayValue": "359",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 249.1827,
+                "percentDailyValue": "7",
+                "displayValue": "249",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 5.683611,
+                "percentDailyValue": "28",
+                "displayValue": "5.7",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 5.307448,
+                "percentDailyValue": "9",
+                "displayValue": "5",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 87211,
+        "recipe_name": "Chicken Pesto Paninis",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/956156.jpg",
+        "ingredients": [
+            "focaccia bread quartered",
+            "prepared basil pesto",
+            "diced cooked chicken",
+            "diced green bell pepper",
+            "diced red onion",
+            "shredded Monterey Jack cheese"
+        ],
+        "cooking_directions": "Prep\n15 m\nCook\n5 m\nReady In\n20 m\nPreheat a panini grill.\nSlice each quarter of focaccia bread in half horizontally. Spread each half with pesto. Layer bottom halves with equal amounts chicken, bell pepper, onion, and cheese. Top with remaining focaccia halves, forming 4 sandwiches.\nGrill paninis 5 minutes in the preheated grill, or until focaccia bread is golden brown and cheese is melted.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 13.22826,
+                "percentDailyValue": "102",
+                "displayValue": "13",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 1.97421,
+                "percentDailyValue": "0",
+                "displayValue": "2",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 1075.527,
+                "percentDailyValue": "43",
+                "displayValue": "1076",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 60.85943,
+                "percentDailyValue": "20",
+                "displayValue": "60.9",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": true,
+                "name": "Vitamin B6",
+                "amount": 0.2734955,
+                "percentDailyValue": "17",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 640.5617,
+                "percentDailyValue": "32",
+                "displayValue": "641",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.03088,
+                "percentDailyValue": "3",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 29.36761,
+                "percentDailyValue": "45",
+                "displayValue": "29.4",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 234.2137,
+                "percentDailyValue": "130",
+                "displayValue": "234",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 264.3085,
+                "percentDailyValue": "-",
+                "displayValue": "264",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 528.4617,
+                "percentDailyValue": "66",
+                "displayValue": "528",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 4.441335,
+                "percentDailyValue": "18",
+                "displayValue": "4.4",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": true,
+                "name": "Magnesium",
+                "amount": 64.67662,
+                "percentDailyValue": "23",
+                "displayValue": "65",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 5.01162,
+                "percentDailyValue": "50",
+                "displayValue": "5",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 61.38938,
+                "percentDailyValue": "20",
+                "displayValue": "61",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 32.37537,
+                "percentDailyValue": "65",
+                "displayValue": "32.4",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 604.7537,
+                "percentDailyValue": "12",
+                "displayValue": "605",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 348.8067,
+                "percentDailyValue": "10",
+                "displayValue": "349",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 10.91876,
+                "percentDailyValue": "55",
+                "displayValue": "10.9",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 18.01502,
+                "percentDailyValue": "30",
+                "displayValue": "18",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 245714,
+        "recipe_name": "Potato Bacon Pizza",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/3806117.jpg",
+        "ingredients": [
+            "red potatoes",
+            "strips bacon",
+            "Sauce:",
+            "heavy whipping cream",
+            "butter",
+            "minced garlic",
+            "grated Parmesan cheese",
+            "Crust:",
+            "warm water (125 degrees F 52 degrees C)",
+            "honey",
+            "active dry yeast",
+            "vegetable oil",
+            "all-purpose flour",
+            "shredded mozzarella cheese"
+        ],
+        "cooking_directions": "Prep\n20 m\nCook\n45 m\nReady In\n1 h 10 m\nPlace potato slices in a deep skillet and cover with 1 inch of water. Bring to a boil; reduce heat and simmer until just tender, about 5 minutes. Drain; set aside to cool.\nPlace bacon slices in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels; set aside to cool.\nHeat cream, butter, and garlic together in a small saucepan over medium heat, stirring occasionally, until butter is melted, about 5 minutes. Add Parmesan cheese; stir until melted. Reduce heat to low and simmer sauce, uncovered, until thick, about 5 minutes.\nPreheat oven to 425 degrees F (220 degrees C). Grease 2 pizza pans.\nCombine warm water, honey, and yeast in a large bowl. Let stand until yeast softens and begins to form a creamy foam, about 5 minutes.\nStir oil into yeast mixture. Mix in flour, 1 cup at a time, until dough starts to come together. Turn out dough onto a well-floured surface. Knead, adding more flour as you work, until dough is no longer sticky. Divide dough into 2 pieces and roll out to the size of your pizza pans; transfer to greased pans.\nBake in the preheated oven until crusts are lightly golden, about 5 minutes. Remove from oven and spread sauce over both crusts. Cover sauce with potato slices. Crumble bacon slices over potatoes and cover with mozzarella cheese.\nBake pizzas in the preheated oven until crusts are golden brown and cheese is bubbly, about 10 minutes.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 3.013383,
+                "percentDailyValue": "23",
+                "displayValue": "3",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 2.452803,
+                "percentDailyValue": "0",
+                "displayValue": "2.5",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 189.8088,
+                "percentDailyValue": "8",
+                "displayValue": "190",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 16.51869,
+                "percentDailyValue": "5",
+                "displayValue": "16.5",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": true,
+                "name": "Vitamin B6",
+                "amount": 0.05571834,
+                "percentDailyValue": "3",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 162.6685,
+                "percentDailyValue": "8",
+                "displayValue": "163",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": true,
+                "name": "Thiamin",
+                "amount": 0.1659426,
+                "percentDailyValue": "17",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 7.600288,
+                "percentDailyValue": "12",
+                "displayValue": "7.6",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 49.48131,
+                "percentDailyValue": "27",
+                "displayValue": "49",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 68.40259,
+                "percentDailyValue": "-",
+                "displayValue": "68",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 132.2265,
+                "percentDailyValue": "17",
+                "displayValue": "132",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 0.7490915,
+                "percentDailyValue": "3",
+                "displayValue": "0.7",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": true,
+                "name": "Magnesium",
+                "amount": 11.4193,
+                "percentDailyValue": "4",
+                "displayValue": "11",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 1.024803,
+                "percentDailyValue": "10",
+                "displayValue": "1",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 21.5561,
+                "percentDailyValue": "7",
+                "displayValue": "22",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 7.059566,
+                "percentDailyValue": "14",
+                "displayValue": "7.1",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 168.3245,
+                "percentDailyValue": "3",
+                "displayValue": "168",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 106.8477,
+                "percentDailyValue": "3",
+                "displayValue": "107",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 3.975159,
+                "percentDailyValue": "20",
+                "displayValue": "4",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 0.9057972,
+                "percentDailyValue": "2",
+                "displayValue": "< 1",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 218545,
+        "recipe_name": "Latin-Inspired Spicy Cream Chicken Stew",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/1104734.jpg",
+        "ingredients": [
+            "skinless boneless chicken breast halves",
+            "diced tomatoes",
+            "green salsa",
+            "black beans rinsed and drained",
+            "pinto beans drained and rinsed",
+            "kernel corn",
+            "taco seasoning",
+            "chopped fresh cilantro",
+            "ground red chile pepper",
+            "ground cumin",
+            "cream cheese"
+        ],
+        "cooking_directions": "Prep\n10 m\nCook\n8 h 15 m\nReady In\n8 h 25 m\nPlace the chicken breasts into the bottom of a slow cooker, and pour tomatoes, green salsa, black beans, pinto beans, and corn over the chicken. Sprinkle taco seasoning, cilantro, ground red chile, and cumin over the mixture, and stir to combine. Cover the cooker, set on Low, and cook until chicken is very tender and the mixture has thickened, 8 to 10 hours.\nFor soup, leave all liquid in the cooker; for a thicker stew, remove some liquid if desired. Mix 1 or 2 tablespoons of liquid with cream cheese in a bowl, stir until smooth, and mix the cream cheese into the cooker to make a creamy sauce. Continue to cook for 15 minutes, then serve.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 10.37677,
+                "percentDailyValue": "80",
+                "displayValue": "10",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 8.222667,
+                "percentDailyValue": "0",
+                "displayValue": "8.2",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 1301.888,
+                "percentDailyValue": "52",
+                "displayValue": "1302",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 37.40297,
+                "percentDailyValue": "12",
+                "displayValue": "37.4",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.2954949,
+                "percentDailyValue": "18",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 334.0075,
+                "percentDailyValue": "17",
+                "displayValue": "334",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.1588362,
+                "percentDailyValue": "16",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 7.977177,
+                "percentDailyValue": "12",
+                "displayValue": "8",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 81.61906,
+                "percentDailyValue": "45",
+                "displayValue": "82",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 71.79459,
+                "percentDailyValue": "-",
+                "displayValue": "72",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 110.3477,
+                "percentDailyValue": "14",
+                "displayValue": "110",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": false,
+                "name": "Dietary Fiber",
+                "amount": 8.019139,
+                "percentDailyValue": "32",
+                "displayValue": "8",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 52.80169,
+                "percentDailyValue": "19",
+                "displayValue": "53",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 6.285045,
+                "percentDailyValue": "63",
+                "displayValue": "6",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 61.5725,
+                "percentDailyValue": "21",
+                "displayValue": "62",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 26.12021,
+                "percentDailyValue": "52",
+                "displayValue": "26.1",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 1584.87,
+                "percentDailyValue": "32",
+                "displayValue": "1585",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 665.3068,
+                "percentDailyValue": "19",
+                "displayValue": "665",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": false,
+                "name": "Saturated Fat",
+                "amount": 3.887164,
+                "percentDailyValue": "19",
+                "displayValue": "3.9",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 14.06487,
+                "percentDailyValue": "23",
+                "displayValue": "14",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 20453,
+        "recipe_name": "Reuben Sandwich I",
+        "image_url": "https://images.media-allrecipes.com/userphotos/250x250/225943.jpg",
+        "ingredients": [
+            "rye bread",
+            "butter",
+            "thinly sliced corned beef",
+            "sauerkraut",
+            "mozzarella cheese"
+        ],
+        "cooking_directions": "Cook\n5 m\nReady In\n5 m\nHeat medium skillet over medium heat. Butter bread on one side. Place one slice of bread, buttered side down, in skillet. Layer corned beef, sauerkraut and mozzarella on bread. Top with remaining slice of bread. Cook, turning once, until bread is browned, sandwich is heated through and cheese is melted. Serve immediately.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 7.91757,
+                "percentDailyValue": "61",
+                "displayValue": "8",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 3.700523,
+                "percentDailyValue": "0",
+                "displayValue": "3.7",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 1682.712,
+                "percentDailyValue": "67",
+                "displayValue": "1683",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 34.35612,
+                "percentDailyValue": "11",
+                "displayValue": "34.4",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": true,
+                "name": "Vitamin B6",
+                "amount": 0.269626,
+                "percentDailyValue": "17",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 489.254,
+                "percentDailyValue": "24",
+                "displayValue": "489",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": true,
+                "name": "Thiamin",
+                "amount": 0.30983,
+                "percentDailyValue": "31",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 28.79442,
+                "percentDailyValue": "44",
+                "displayValue": "28.8",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 90.146,
+                "percentDailyValue": "50",
+                "displayValue": "90",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 259.1498,
+                "percentDailyValue": "-",
+                "displayValue": "259",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 290.368,
+                "percentDailyValue": "36",
+                "displayValue": "290",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 5.197197,
+                "percentDailyValue": "21",
+                "displayValue": "5.2",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": true,
+                "name": "Magnesium",
+                "amount": 46.324,
+                "percentDailyValue": "17",
+                "displayValue": "46",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 3.74044,
+                "percentDailyValue": "37",
+                "displayValue": "4",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 103.33,
+                "percentDailyValue": "34",
+                "displayValue": "103",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 23.0383,
+                "percentDailyValue": "46",
+                "displayValue": "23",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 504.098,
+                "percentDailyValue": "10",
+                "displayValue": "504",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 309.568,
+                "percentDailyValue": "9",
+                "displayValue": "310",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 14.09626,
+                "percentDailyValue": "70",
+                "displayValue": "14.1",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 8.488,
+                "percentDailyValue": "14",
+                "displayValue": "8",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 244856,
+        "recipe_name": "Turkey Black Bean Burgers",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/4463159.jpg",
+        "ingredients": [
+            "extra lean ground turkey",
+            "cooked black beans coarsely chopped",
+            "chopped onion",
+            "chopped tomato",
+            "chopped fresh parsley",
+            "egg white",
+            "garlic",
+            "dried oregano",
+            "ground cumin",
+            "sea salt and ground black pepper to taste"
+        ],
+        "cooking_directions": "Prep\n10 m\nCook\n8 m\nReady In\n18 m\nCombine turkey, black beans, onion, tomato, parsley, egg white, garlic, oregano, cumin, salt, and pepper together in a bowl until well combined; form into 4 patties.\nHeat a greased skillet over medium heat; cook patties until no longer pink in the center, 4 to 5 minutes per side. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 9.112876,
+                "percentDailyValue": "70",
+                "displayValue": "9",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 0.8452163,
+                "percentDailyValue": "0",
+                "displayValue": "0.8",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 276.9467,
+                "percentDailyValue": "11",
+                "displayValue": "277",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 7.551759,
+                "percentDailyValue": "2",
+                "displayValue": "7.6",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": true,
+                "name": "Vitamin B6",
+                "amount": 0.38657,
+                "percentDailyValue": "24",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 210.6642,
+                "percentDailyValue": "11",
+                "displayValue": "211",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.107748,
+                "percentDailyValue": "11",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 8.858574,
+                "percentDailyValue": "14",
+                "displayValue": "8.9",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 33.379,
+                "percentDailyValue": "19",
+                "displayValue": "33",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 79.72717,
+                "percentDailyValue": "-",
+                "displayValue": "80",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 52.496,
+                "percentDailyValue": "7",
+                "displayValue": "52",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 2.714937,
+                "percentDailyValue": "11",
+                "displayValue": "2.7",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": true,
+                "name": "Magnesium",
+                "amount": 39.36125,
+                "percentDailyValue": "14",
+                "displayValue": "39",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 3.878745,
+                "percentDailyValue": "39",
+                "displayValue": "4",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 83.895,
+                "percentDailyValue": "28",
+                "displayValue": "84",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 25.74544,
+                "percentDailyValue": "51",
+                "displayValue": "25.7",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 364.7262,
+                "percentDailyValue": "7",
+                "displayValue": "365",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 407.24,
+                "percentDailyValue": "11",
+                "displayValue": "407",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 2.248184,
+                "percentDailyValue": "11",
+                "displayValue": "2.2",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 7.4153,
+                "percentDailyValue": "12",
+                "displayValue": "7",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 22402,
+        "recipe_name": "Cranberry Pork Chops II",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/1604955.jpg",
+        "ingredients": [
+            "pork chops",
+            "fresh",
+            "white sugar",
+            "salt",
+            "ground black pepper",
+            "water as needed"
+        ],
+        "cooking_directions": "Prep\n25 m\nCook\n45 m\nReady In\n1 h 10 m\nIn a skillet, brown chops slowly in oil; drain.\nAdd cranberries, sugar, salt and pepper to chops with 1/2 cup water to start. Bring to boil; reduce heat. Simmer, covered, for about 45 minutes or until tender but not dry. Add water if necessary to keep chops from drying out.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 5.133446,
+                "percentDailyValue": "39",
+                "displayValue": "5",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 26.45939,
+                "percentDailyValue": "0",
+                "displayValue": "26.5",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 409.1156,
+                "percentDailyValue": "16",
+                "displayValue": "409",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 29.52504,
+                "percentDailyValue": "10",
+                "displayValue": "29.5",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": true,
+                "name": "Vitamin B6",
+                "amount": 0.1838469,
+                "percentDailyValue": "11",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 229.0292,
+                "percentDailyValue": "11",
+                "displayValue": "229",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": true,
+                "name": "Thiamin",
+                "amount": 0.2839904,
+                "percentDailyValue": "28",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 6.319194,
+                "percentDailyValue": "10",
+                "displayValue": "6.3",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 2.352917,
+                "percentDailyValue": "1",
+                "displayValue": "2",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 56.87275,
+                "percentDailyValue": "-",
+                "displayValue": "57",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 14.18758,
+                "percentDailyValue": "2",
+                "displayValue": "14",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 1.709854,
+                "percentDailyValue": "7",
+                "displayValue": "1.7",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": true,
+                "name": "Magnesium",
+                "amount": 11.77287,
+                "percentDailyValue": "4",
+                "displayValue": "12",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 0.5973192,
+                "percentDailyValue": "6",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 37.07813,
+                "percentDailyValue": "12",
+                "displayValue": "37",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 13.90609,
+                "percentDailyValue": "28",
+                "displayValue": "13.9",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 25.72225,
+                "percentDailyValue": "< 1",
+                "displayValue": "26",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 234.0589,
+                "percentDailyValue": "7",
+                "displayValue": "234",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 2.333397,
+                "percentDailyValue": "12",
+                "displayValue": "2.3",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 5.043355,
+                "percentDailyValue": "8",
+                "displayValue": "5",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 258163,
+        "recipe_name": "Schnitzel Sandwich",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/4515786.jpg",
+        "ingredients": [
+            "skinless boneless chicken breasts",
+            "salt and ground black pepper to taste",
+            "all-purpose flour",
+            "eggs",
+            "dry bread crumbs",
+            "vegetable oil",
+            "sandwich rolls split",
+            "mayonnaise",
+            "lemon juiced",
+            "hot pepper sauce (such as Tabasco\u00ae) (optional)",
+            "leaves chopped romaine lettuce",
+            "mustard"
+        ],
+        "cooking_directions": "Prep\n20 m\nCook\n20 m\nReady In\n40 m\nPlace chicken between 2 sheets of heavy plastic on a solid, level surface; firmly pound with the smooth side of a meat mallet to an even thickness. Season generously with salt and pepper.\nPour flour into a large, flat dish. Beat eggs thoroughly in a shallow bowl. Pour bread crumbs into another large, flat dish.\nDredge each piece of chicken in flour, dip in beaten eggs, and coat with bread crumbs.\nPreheat oven to 200 degrees F (95 degrees C).\nHeat oil in a large skillet over medium-low heat. Cook breaded chicken in batches until golden brown and no longer pink in the center, about 5 minutes per side. Drain on an ovenproof plate lined with paper towels. Keep warm in the oven.\nSpread mayonnaise over bottom half of each sandwich roll; top with 1 piece of breaded chicken, a few drops of lemon juice, 1 dash hot sauce, and 1 lettuce leaf. Spread mustard over the top half of each sandwich roll. Place top halves over lettuce to form sandwiches.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 19.12635,
+                "percentDailyValue": "147",
+                "displayValue": "19",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 7.08219,
+                "percentDailyValue": "0",
+                "displayValue": "7.1",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 1164.015,
+                "percentDailyValue": "47",
+                "displayValue": "1164",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 112.3197,
+                "percentDailyValue": "36",
+                "displayValue": "112.3",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": true,
+                "name": "Vitamin B6",
+                "amount": 0.4357414,
+                "percentDailyValue": "27",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 913.5109,
+                "percentDailyValue": "46",
+                "displayValue": "914",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.5078484,
+                "percentDailyValue": "51",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 35.29628,
+                "percentDailyValue": "54",
+                "displayValue": "35.3",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 148.6623,
+                "percentDailyValue": "83",
+                "displayValue": "149",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 317.6665,
+                "percentDailyValue": "-",
+                "displayValue": "318",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 265.6102,
+                "percentDailyValue": "33",
+                "displayValue": "266",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 6.043953,
+                "percentDailyValue": "24",
+                "displayValue": "6",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": true,
+                "name": "Magnesium",
+                "amount": 63.31377,
+                "percentDailyValue": "23",
+                "displayValue": "63",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 8.053431,
+                "percentDailyValue": "81",
+                "displayValue": "8",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 119.042,
+                "percentDailyValue": "40",
+                "displayValue": "119",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 34.14107,
+                "percentDailyValue": "68",
+                "displayValue": "34.1",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 720.2568,
+                "percentDailyValue": "14",
+                "displayValue": "720",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 443.3629,
+                "percentDailyValue": "12",
+                "displayValue": "443",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 6.657913,
+                "percentDailyValue": "33",
+                "displayValue": "6.7",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 3.20582,
+                "percentDailyValue": "5",
+                "displayValue": "3",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 23658,
+        "recipe_name": "Pam's Bierocks",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/2118998.jpg",
+        "ingredients": [
+            "warm water",
+            "active dry yeast",
+            "white sugar",
+            "margarine softened",
+            "egg",
+            "salt",
+            "all-purpose flour",
+            "lean ground beef",
+            "chopped onion",
+            "shredded cabbage",
+            "salt",
+            "black pepper",
+            "melted butter"
+        ],
+        "cooking_directions": "Prep\n50 m\nCook\n25 m\nReady In\n1 h 30 m\nPrepare dough: In a large bowl, dissolve yeast in warm water. Let stand until creamy, about 10 minutes. Mix in sugar, margarine, egg, salt and 1/2 of the flour. Beat until smooth; add remaining flour until dough pulls together. Place in oiled bowl. Cover with foil and refrigerate for 2 hours or overnight, OR let it rise for 1 hour.\nIn a large heavy skillet, brown meat. Add onion, cabbage, salt and simmer 30 minutes. Cool until lukewarm. Preheat oven to 350 degrees F (175 degrees C.) Coat a cookie sheet with non-stick spray.\nPunch down dough and divide into 20 pieces. Spread each piece of dough out on an un-floured surface and fill with approximately 2 tablespoons filling. fold dough over and seal edges. Place on prepared cookie sheet and let rise for 1 hour.\nBake in the preheated oven for 25 minutes, or until golden brown. Brush with butter and serve.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 5.891332,
+                "percentDailyValue": "45",
+                "displayValue": "6",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 6.171535,
+                "percentDailyValue": "0",
+                "displayValue": "6.2",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": false,
+                "name": "Sodium",
+                "amount": 415.9842,
+                "percentDailyValue": "17",
+                "displayValue": "416",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": false,
+                "name": "Carbohydrates",
+                "amount": 40.73131,
+                "percentDailyValue": "13",
+                "displayValue": "40.7",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.126758,
+                "percentDailyValue": "8",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": false,
+                "name": "Calories",
+                "amount": 293.2711,
+                "percentDailyValue": "15",
+                "displayValue": "293",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.3872526,
+                "percentDailyValue": "39",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": false,
+                "name": "Fat",
+                "amount": 9.979216,
+                "percentDailyValue": "15",
+                "displayValue": "10",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 110.107,
+                "percentDailyValue": "61",
+                "displayValue": "110",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": false,
+                "name": "Calories from Fat",
+                "amount": 89.81294,
+                "percentDailyValue": "-",
+                "displayValue": "90",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": false,
+                "name": "Calcium",
+                "amount": 22.63353,
+                "percentDailyValue": "3",
+                "displayValue": "23",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": false,
+                "name": "Dietary Fiber",
+                "amount": 2.017075,
+                "percentDailyValue": "8",
+                "displayValue": "2",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 18.37007,
+                "percentDailyValue": "7",
+                "displayValue": "18",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": false,
+                "name": "Iron",
+                "amount": 2.743581,
+                "percentDailyValue": "27",
+                "displayValue": "3",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": false,
+                "name": "Cholesterol",
+                "amount": 32.42562,
+                "percentDailyValue": "11",
+                "displayValue": "32",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": false,
+                "name": "Protein",
+                "amount": 9.535107,
+                "percentDailyValue": "19",
+                "displayValue": "9.5",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": false,
+                "name": "Vitamin A - IU",
+                "amount": 203.6787,
+                "percentDailyValue": "4",
+                "displayValue": "204",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 174.1351,
+                "percentDailyValue": "5",
+                "displayValue": "174",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": false,
+                "name": "Saturated Fat",
+                "amount": 3.895137,
+                "percentDailyValue": "19",
+                "displayValue": "3.9",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": false,
+                "name": "Vitamin C",
+                "amount": 8.307724,
+                "percentDailyValue": "14",
+                "displayValue": "8",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 244786,
+        "recipe_name": "Zucchini Noodles and Summer Vegetables with Sweet Pepper Chicken Sausage",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/2726927.jpg",
+        "ingredients": [
+            "zucchini cut into noodle-shape strands",
+            "extra-virgin olive oil",
+            "chopped green bell pepper",
+            "chopped white onion",
+            "seasoned salt (such as Spike\u00ae seasoning)",
+            "sea salt and freshly ground black pepper to taste",
+            "sweet pepper chicken sausages",
+            "lightly torn fresh spinach",
+            "chopped fresh basil",
+            "garlic paste",
+            "large tomato",
+            "shredded Parmesan cheese"
+        ],
+        "cooking_directions": "Prep\n15 m\nCook\n12 m\nReady In\n27 m\nBring a pot of lightly salted water to a boil. Cook zucchini noodles (zoodles) in the boiling water until tender yet firm to the bite, about 3 minutes; drain.\nHeat 1 tablespoon olive oil in a skillet over medium heat; cook and stir green bell pepper, onion, seasoned salt, and sea salt for 3 minutes. Add chicken sausage and cook until sausage is lightly browned, 4 to 5 minutes. Add spinach, basil, garlic paste, and seasoned salt to taste; cook until spinach is wilted, 2 to 3 minutes.\nPlace zoodles on a serving plate and toss with remaining 1 tablespoon olive oil and sea salt. Add sausage mixture and tomatoes and top with Parmesan cheese; season with salt and pepper.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 1.450327,
+                "percentDailyValue": "11",
+                "displayValue": "1",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 4.319087,
+                "percentDailyValue": "0",
+                "displayValue": "4.3",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 1406.984,
+                "percentDailyValue": "56",
+                "displayValue": "1407",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 9.165854,
+                "percentDailyValue": "3",
+                "displayValue": "9.2",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.2600787,
+                "percentDailyValue": "16",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 208.0816,
+                "percentDailyValue": "10",
+                "displayValue": "208",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.088882,
+                "percentDailyValue": "9",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 13.56927,
+                "percentDailyValue": "21",
+                "displayValue": "13.6",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 44.46603,
+                "percentDailyValue": "25",
+                "displayValue": "44",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 122.1234,
+                "percentDailyValue": "-",
+                "displayValue": "122",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": false,
+                "name": "Calcium",
+                "amount": 97.79942,
+                "percentDailyValue": "12",
+                "displayValue": "98",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": false,
+                "name": "Dietary Fiber",
+                "amount": 2.000092,
+                "percentDailyValue": "8",
+                "displayValue": "2",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 29.58783,
+                "percentDailyValue": "11",
+                "displayValue": "30",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": false,
+                "name": "Iron",
+                "amount": 1.758728,
+                "percentDailyValue": "18",
+                "displayValue": "2",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 39.7125,
+                "percentDailyValue": "13",
+                "displayValue": "40",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 11.74681,
+                "percentDailyValue": "23",
+                "displayValue": "11.7",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": false,
+                "name": "Vitamin A - IU",
+                "amount": 1543.263,
+                "percentDailyValue": "31",
+                "displayValue": "1543",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 382.4641,
+                "percentDailyValue": "11",
+                "displayValue": "382",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 3.387094,
+                "percentDailyValue": "17",
+                "displayValue": "3.4",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": false,
+                "name": "Vitamin C",
+                "amount": 34.35267,
+                "percentDailyValue": "57",
+                "displayValue": "34",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 260453,
+        "recipe_name": "Fresh Balsamic Chicken Salad",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/5024618.jpg",
+        "ingredients": [
+            "balsamic vinegar",
+            "English cucumbers thinly sliced",
+            "pint grape tomatoes halved",
+            "cooked chicken breast",
+            "olive oil",
+            "salt and ground black pepper to taste"
+        ],
+        "cooking_directions": "Prep\n15 m\nCook\n11 m\nReady In\n26 m\nHeat balsamic vinegar in a small saucepan over medium heat. Bring to a boil, stirring constantly to prevent burning and reducing heat if necessary. Cook and stir until reduced to a syrup-like consistency, 6 to 8 minutes.\nCombine cucumbers, tomatoes, and chicken breast in a large bowl. Drizzle the balsamic reduction and olive oil on top; toss to coat. Season with salt and pepper.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 15.90197,
+                "percentDailyValue": "122",
+                "displayValue": "16",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 17.9497,
+                "percentDailyValue": "0",
+                "displayValue": "17.9",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 188.056,
+                "percentDailyValue": "8",
+                "displayValue": "188",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 31.0189,
+                "percentDailyValue": "10",
+                "displayValue": "31",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.5506,
+                "percentDailyValue": "34",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 453.68,
+                "percentDailyValue": "23",
+                "displayValue": "454",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.11254,
+                "percentDailyValue": "11",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 22.6428,
+                "percentDailyValue": "35",
+                "displayValue": "22.6",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 45.32,
+                "percentDailyValue": "25",
+                "displayValue": "45",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 203.7852,
+                "percentDailyValue": "-",
+                "displayValue": "204",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 94.433,
+                "percentDailyValue": "12",
+                "displayValue": "94",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 3.044,
+                "percentDailyValue": "12",
+                "displayValue": "3",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 77.122,
+                "percentDailyValue": "28",
+                "displayValue": "77",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 3.25656,
+                "percentDailyValue": "33",
+                "displayValue": "3",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 82.5,
+                "percentDailyValue": "28",
+                "displayValue": "82",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 33.573,
+                "percentDailyValue": "67",
+                "displayValue": "33.6",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 1313.52,
+                "percentDailyValue": "26",
+                "displayValue": "1314",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 1011.801,
+                "percentDailyValue": "28",
+                "displayValue": "1012",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": false,
+                "name": "Saturated Fat",
+                "amount": 4.325186,
+                "percentDailyValue": "22",
+                "displayValue": "4.3",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 36.822,
+                "percentDailyValue": "61",
+                "displayValue": "37",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 103305,
+        "recipe_name": "Hearty Chili",
+        "image_url": "https://images.media-allrecipes.com/userphotos/250x250/997976.jpg",
+        "ingredients": [
+            "ground beef",
+            "chopped onions",
+            "garlic cloves",
+            "tomatoes undrained cut up",
+            "tomato sauce",
+            "Holland House\u00ae Red Cooking Wine",
+            "chili powder",
+            "cumin",
+            "green bell pepper",
+            "kidney beans drained"
+        ],
+        "cooking_directions": "Prep\n10 m\nCook\n1 h\nReady In\n1 h 10 m\nIn large saucepan, brown ground beef with onions; drain.\nAdd remaining ingredients except green pepper and kidney beans. Bring to a boil; reduce heat.\nSimmer uncovered 1 hour, stirring occasionally. Stir in green pepper and kidney beans; simmer until thoroughly heated.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 11.247,
+                "percentDailyValue": "87",
+                "displayValue": "11",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 10.5931,
+                "percentDailyValue": "0",
+                "displayValue": "10.6",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 1444.952,
+                "percentDailyValue": "58",
+                "displayValue": "1445",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 37.42852,
+                "percentDailyValue": "12",
+                "displayValue": "37.4",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.6594484,
+                "percentDailyValue": "41",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 447.5716,
+                "percentDailyValue": "22",
+                "displayValue": "448",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.3223768,
+                "percentDailyValue": "32",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 19.03824,
+                "percentDailyValue": "29",
+                "displayValue": "19",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 44.57724,
+                "percentDailyValue": "25",
+                "displayValue": "45",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 171.3441,
+                "percentDailyValue": "-",
+                "displayValue": "171",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": false,
+                "name": "Calcium",
+                "amount": 137.1956,
+                "percentDailyValue": "17",
+                "displayValue": "137",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 11.83242,
+                "percentDailyValue": "47",
+                "displayValue": "11.8",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 63.85705,
+                "percentDailyValue": "23",
+                "displayValue": "64",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": false,
+                "name": "Iron",
+                "amount": 7.212985,
+                "percentDailyValue": "72",
+                "displayValue": "7",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 69.6425,
+                "percentDailyValue": "23",
+                "displayValue": "70",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 28.49625,
+                "percentDailyValue": "57",
+                "displayValue": "28.5",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": false,
+                "name": "Vitamin A - IU",
+                "amount": 1280.164,
+                "percentDailyValue": "26",
+                "displayValue": "1280",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 1069.523,
+                "percentDailyValue": "30",
+                "displayValue": "1070",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 7.078082,
+                "percentDailyValue": "35",
+                "displayValue": "7.1",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": false,
+                "name": "Vitamin C",
+                "amount": 40.5577,
+                "percentDailyValue": "68",
+                "displayValue": "41",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 26668,
+        "recipe_name": "Tater Tot Casserole III",
+        "image_url": "https://images.media-allrecipes.com/userphotos/250x250/20893.jpg",
+        "ingredients": [
+            "ground beef",
+            "condensed cream of mushroom soup",
+            "fluid ounces skim milk",
+            "garlic salt",
+            "French style green beans",
+            "tater tots"
+        ],
+        "cooking_directions": "Prep\n15 m\nCook\n30 m\nReady In\n45 m\nPreheat oven to 375 degrees F (190 degrees C).\nIn a large skillet over high heat, brown the ground beef and drain fat. Stir in condensed cream of mushroom soup, skim milk, garlic salt and green beans. Pour the mixture into a medium-sized casserole dish and layer with the tater tots.\nBake in preheated oven for about 30 minutes, or until tater tots are browned and crispy.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 5.286505,
+                "percentDailyValue": "41",
+                "displayValue": "5",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 7.555897,
+                "percentDailyValue": "0",
+                "displayValue": "7.6",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 1753.293,
+                "percentDailyValue": "70",
+                "displayValue": "1753",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 40.73619,
+                "percentDailyValue": "13",
+                "displayValue": "40.7",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.1672274,
+                "percentDailyValue": "10",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 403.6438,
+                "percentDailyValue": "20",
+                "displayValue": "404",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.0619795,
+                "percentDailyValue": "6",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 21.87788,
+                "percentDailyValue": "34",
+                "displayValue": "21.9",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 9.278163,
+                "percentDailyValue": "5",
+                "displayValue": "9",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 196.901,
+                "percentDailyValue": "-",
+                "displayValue": "197",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 134.1279,
+                "percentDailyValue": "17",
+                "displayValue": "134",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 4.361199,
+                "percentDailyValue": "17",
+                "displayValue": "4.4",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 20.34008,
+                "percentDailyValue": "7",
+                "displayValue": "20",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 2.440435,
+                "percentDailyValue": "24",
+                "displayValue": "2",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 36.12605,
+                "percentDailyValue": "12",
+                "displayValue": "36",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 17.04506,
+                "percentDailyValue": "34",
+                "displayValue": "17",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 443.627,
+                "percentDailyValue": "9",
+                "displayValue": "444",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 588.1847,
+                "percentDailyValue": "16",
+                "displayValue": "588",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 5.713773,
+                "percentDailyValue": "29",
+                "displayValue": "5.7",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 4.389248,
+                "percentDailyValue": "7",
+                "displayValue": "4",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 185816,
+        "recipe_name": "Sweet Pork for Burritos",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/778557.jpg",
+        "ingredients": [
+            "pork shoulder roast",
+            "salsa",
+            "fluid ounce) can",
+            "brown sugar",
+            "fajita seasoning",
+            "taco seasoning mix",
+            "chopped green chilies"
+        ],
+        "cooking_directions": "Prep\n30 m\nCook\n8 h\nReady In\n8 h 30 m\nPlace pork roast in the crock of a slow cooker, and add 4 cups water. Cook on High for 5 hours.\nRemove pork from the slow cooker and drain liquid. Cut the pork into 4 pieces, and set aside. Puree salsa in blender. Combine the pureed salsa, cola, brown sugar, fajita seasoning, taco seasoning, and green chilies in the crock of the slow cooker. Add the pork, and cook on High for an additional 3 hours.\nRemove the pork, and shred with 2 forks. Serve.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 9.990743,
+                "percentDailyValue": "77",
+                "displayValue": "10",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 28.73791,
+                "percentDailyValue": "0",
+                "displayValue": "28.7",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 727.8294,
+                "percentDailyValue": "29",
+                "displayValue": "728",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 32.55768,
+                "percentDailyValue": "11",
+                "displayValue": "32.6",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.627544,
+                "percentDailyValue": "39",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 355.0906,
+                "percentDailyValue": "18",
+                "displayValue": "355",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 1.033995,
+                "percentDailyValue": "103",
+                "displayValue": "1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 14.714,
+                "percentDailyValue": "23",
+                "displayValue": "14.7",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 9.271667,
+                "percentDailyValue": "5",
+                "displayValue": "9",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 132.426,
+                "percentDailyValue": "-",
+                "displayValue": "132",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 55.32767,
+                "percentDailyValue": "7",
+                "displayValue": "55",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 0.9029999,
+                "percentDailyValue": "4",
+                "displayValue": "0.9",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 35.059,
+                "percentDailyValue": "13",
+                "displayValue": "35",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 1.390947,
+                "percentDailyValue": "14",
+                "displayValue": "1",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 72.576,
+                "percentDailyValue": "24",
+                "displayValue": "73",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 22.98779,
+                "percentDailyValue": "46",
+                "displayValue": "23",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 251.748,
+                "percentDailyValue": "5",
+                "displayValue": "252",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 590.3663,
+                "percentDailyValue": "17",
+                "displayValue": "590",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 5.082802,
+                "percentDailyValue": "25",
+                "displayValue": "5.1",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 12.60723,
+                "percentDailyValue": "21",
+                "displayValue": "13",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 79814,
+        "recipe_name": "Slow Cooker Veggie-Beef Soup with Okra",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/4313941.jpg",
+        "ingredients": [
+            "ground beef",
+            "onion",
+            "diced tomatoes drained",
+            "Italian diced tomatoes drained",
+            "frozen mixed vegetables",
+            "sliced fresh",
+            "potatoes",
+            "ketchup",
+            "salt and pepper to taste"
+        ],
+        "cooking_directions": "Prep\n20 m\nCook\n4 h\nReady In\n4 h 20 m\nIn a skillet over medium heat, cook the ground beef and onion until beef is evenly brown and onion is tender. Drain grease.\nIn a slow cooker, mix the beef and onion, diced tomatoes, Italian diced tomatoes, vegetables, okra, potatoes, ketchup, salt, and pepper. Pour in enough water to cover.\nCover slow cooker, and cook 4 hours on Low.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 12.24184,
+                "percentDailyValue": "94",
+                "displayValue": "12",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 7.653133,
+                "percentDailyValue": "0",
+                "displayValue": "7.7",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": false,
+                "name": "Sodium",
+                "amount": 487.9103,
+                "percentDailyValue": "20",
+                "displayValue": "488",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": false,
+                "name": "Carbohydrates",
+                "amount": 44.17962,
+                "percentDailyValue": "14",
+                "displayValue": "44.2",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.683525,
+                "percentDailyValue": "43",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": false,
+                "name": "Calories",
+                "amount": 412.7846,
+                "percentDailyValue": "21",
+                "displayValue": "413",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.3136275,
+                "percentDailyValue": "31",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": false,
+                "name": "Fat",
+                "amount": 14.03037,
+                "percentDailyValue": "22",
+                "displayValue": "14",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 80.9335,
+                "percentDailyValue": "45",
+                "displayValue": "81",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": false,
+                "name": "Calories from Fat",
+                "amount": 126.2734,
+                "percentDailyValue": "-",
+                "displayValue": "126",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": false,
+                "name": "Calcium",
+                "amount": 140.3699,
+                "percentDailyValue": "18",
+                "displayValue": "140",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": false,
+                "name": "Dietary Fiber",
+                "amount": 9.556436,
+                "percentDailyValue": "38",
+                "displayValue": "9.6",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 83.1775,
+                "percentDailyValue": "30",
+                "displayValue": "83",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": false,
+                "name": "Iron",
+                "amount": 8.584152,
+                "percentDailyValue": "86",
+                "displayValue": "9",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": false,
+                "name": "Cholesterol",
+                "amount": 68.845,
+                "percentDailyValue": "23",
+                "displayValue": "69",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": false,
+                "name": "Protein",
+                "amount": 27.26121,
+                "percentDailyValue": "55",
+                "displayValue": "27.3",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": false,
+                "name": "Vitamin A - IU",
+                "amount": 7572.083,
+                "percentDailyValue": "151",
+                "displayValue": "7572",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 1280.035,
+                "percentDailyValue": "36",
+                "displayValue": "1280",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": false,
+                "name": "Saturated Fat",
+                "amount": 5.369272,
+                "percentDailyValue": "27",
+                "displayValue": "5.4",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": false,
+                "name": "Vitamin C",
+                "amount": 54.25587,
+                "percentDailyValue": "90",
+                "displayValue": "54",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 25507,
+        "recipe_name": "Mock Sliders",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/3291466.jpg",
+        "ingredients": [
+            "corned beef",
+            "sour cream",
+            "envelope dry onion soup mix",
+            "dinner rolls",
+            "dill pickle slices drained"
+        ],
+        "cooking_directions": "Prep\n15 m\nCook\n1 m\nReady In\n16 m\nIn a medium bowl, mix together corned beef, sour cream and dry onion soup mix.\nCut rolls in half horizontally. Spread bottoms with the corned beef mixture. Replace tops.\nMicrowave 30 to 45 seconds on high heat, until hot and moist. Top with dill pickle slices before serving.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 1.019939,
+                "percentDailyValue": "8",
+                "displayValue": "1",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 0.3038419,
+                "percentDailyValue": "0",
+                "displayValue": "0.3",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 488.6288,
+                "percentDailyValue": "20",
+                "displayValue": "489",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 1.945168,
+                "percentDailyValue": "< 1",
+                "displayValue": "1.9",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.02214133,
+                "percentDailyValue": "1",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 61.98725,
+                "percentDailyValue": "3",
+                "displayValue": "62",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.01109333,
+                "percentDailyValue": "1",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 4.138773,
+                "percentDailyValue": "6",
+                "displayValue": "4.1",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 2.564923,
+                "percentDailyValue": "1",
+                "displayValue": "3",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 37.24896,
+                "percentDailyValue": "-",
+                "displayValue": "37",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 16.79083,
+                "percentDailyValue": "2",
+                "displayValue": "17",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 0.2970218,
+                "percentDailyValue": "1",
+                "displayValue": "0.3",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 5.054667,
+                "percentDailyValue": "2",
+                "displayValue": "5",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 0.418711,
+                "percentDailyValue": "4",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 16.22136,
+                "percentDailyValue": "5",
+                "displayValue": "16",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 4.293154,
+                "percentDailyValue": "9",
+                "displayValue": "4.3",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 122.7573,
+                "percentDailyValue": "2",
+                "displayValue": "123",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 54.32533,
+                "percentDailyValue": "2",
+                "displayValue": "54",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 2.114902,
+                "percentDailyValue": "11",
+                "displayValue": "2.1",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 0.5771333,
+                "percentDailyValue": "< 1",
+                "displayValue": "< 1",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 238886,
+        "recipe_name": "Midnight Snack Avocado Sandwich",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/1356257.jpg",
+        "ingredients": [
+            "bacon",
+            "green onions",
+            "mayonnaise",
+            "wheat bread toasted",
+            "avocado mashed",
+            "tomato",
+            "alfalfa sprouts",
+            "salt and ground black pepper to taste"
+        ],
+        "cooking_directions": "Prep\n15 m\nCook\n5 m\nReady In\n20 m\nPlace the bacon in a large skillet and cook over medium-high heat, turning occasionally, until almost browned, 2 to 3 minutes. Add green onion to bacon; cook and stir until onion is soft and bacon is crisp, 3 to 5 minutes more.\nSpread mayonnaise on one side of each slice of toast. Spread mashed avocado onto one side of one piece of toast. Top avocado with tomato slices, sprouts, and bacon mixture; sprinkle with salt and black pepper. Place remaining slice of toast on top.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 9.545731,
+                "percentDailyValue": "73",
+                "displayValue": "10",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 6.8054,
+                "percentDailyValue": "0",
+                "displayValue": "6.8",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": false,
+                "name": "Sodium",
+                "amount": 779.8317,
+                "percentDailyValue": "31",
+                "displayValue": "780",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": false,
+                "name": "Carbohydrates",
+                "amount": 39.42938,
+                "percentDailyValue": "13",
+                "displayValue": "39.4",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.602543,
+                "percentDailyValue": "38",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": false,
+                "name": "Calories",
+                "amount": 531.74,
+                "percentDailyValue": "27",
+                "displayValue": "532",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.496758,
+                "percentDailyValue": "50",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": false,
+                "name": "Fat",
+                "amount": 35.49799,
+                "percentDailyValue": "55",
+                "displayValue": "35.5",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 142.205,
+                "percentDailyValue": "79",
+                "displayValue": "142",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": false,
+                "name": "Calories from Fat",
+                "amount": 319.4819,
+                "percentDailyValue": "-",
+                "displayValue": "319",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": false,
+                "name": "Calcium",
+                "amount": 118.8153,
+                "percentDailyValue": "15",
+                "displayValue": "119",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": false,
+                "name": "Dietary Fiber",
+                "amount": 13.01457,
+                "percentDailyValue": "52",
+                "displayValue": "13",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 96.709,
+                "percentDailyValue": "35",
+                "displayValue": "97",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": false,
+                "name": "Iron",
+                "amount": 6.48525,
+                "percentDailyValue": "65",
+                "displayValue": "6",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": false,
+                "name": "Cholesterol",
+                "amount": 25.044,
+                "percentDailyValue": "8",
+                "displayValue": "25",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": false,
+                "name": "Protein",
+                "amount": 18.75213,
+                "percentDailyValue": "38",
+                "displayValue": "18.8",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": false,
+                "name": "Vitamin A - IU",
+                "amount": 1234.231,
+                "percentDailyValue": "25",
+                "displayValue": "1234",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 1033.082,
+                "percentDailyValue": "29",
+                "displayValue": "1033",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": false,
+                "name": "Saturated Fat",
+                "amount": 6.706356,
+                "percentDailyValue": "34",
+                "displayValue": "6.7",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": false,
+                "name": "Vitamin C",
+                "amount": 28.977,
+                "percentDailyValue": "48",
+                "displayValue": "29",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 235633,
+        "recipe_name": "Red Wine Braised Short Ribs with Rosemary",
+        "image_url": "https://images.media-allrecipes.com/userphotos/250x250/1075367.jpg",
+        "ingredients": [
+            "beef short ribs",
+            "Salt and ground black pepper",
+            "all-purpose flour",
+            "olive oil",
+            "large onions",
+            "tomato paste",
+            "large carrots",
+            "celery",
+            "garlic",
+            "chopped fresh rosemary leaves",
+            "Swanson\u00ae Beef Stock",
+            "dry red wine"
+        ],
+        "cooking_directions": "Prep\n25 m\nCook\n2 h\nReady In\n2 h 25 m\nSeason the beef with the salt and black pepper. Coat the beef with half the flour.\nHeat the oil in an 8-quart saucepot over medium-high heat. Add the beef in 2 batches and cook until well browned on all sides. Remove the beef from the saucepot.\nAdd the onions and tomato paste to the saucepot and cook for 5 minutes, stirring occasionally. Stir in the carrots, celery, chopped garlic and rosemary and cook for 3 minutes. Stir in the stock, wine and remaining flour and heat to a boil. Return the beef to the saucepot. Reduce the heat to low. Cover and cook for 1 hour 30 minutes or until the beef is fork-tender.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": false,
+                "name": "Niacin Equivalents",
+                "amount": 10.02846,
+                "percentDailyValue": "77",
+                "displayValue": "10",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 6.996001,
+                "percentDailyValue": "0",
+                "displayValue": "7",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 524.4266,
+                "percentDailyValue": "21",
+                "displayValue": "524",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 23.20788,
+                "percentDailyValue": "7",
+                "displayValue": "23.2",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.5489663,
+                "percentDailyValue": "34",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 963.5643,
+                "percentDailyValue": "48",
+                "displayValue": "964",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.268186,
+                "percentDailyValue": "27",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 74.25414,
+                "percentDailyValue": "114",
+                "displayValue": "74.3",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 56.23151,
+                "percentDailyValue": "31",
+                "displayValue": "56",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 668.2872,
+                "percentDailyValue": "-",
+                "displayValue": "668",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": false,
+                "name": "Calcium",
+                "amount": 60.28451,
+                "percentDailyValue": "8",
+                "displayValue": "60",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 2.721484,
+                "percentDailyValue": "11",
+                "displayValue": "2.7",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 46.35454,
+                "percentDailyValue": "17",
+                "displayValue": "46",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": false,
+                "name": "Iron",
+                "amount": 5.122253,
+                "percentDailyValue": "51",
+                "displayValue": "5",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 155.4133,
+                "percentDailyValue": "52",
+                "displayValue": "155",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 41.13819,
+                "percentDailyValue": "82",
+                "displayValue": "41.1",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": false,
+                "name": "Vitamin A - IU",
+                "amount": 6166.775,
+                "percentDailyValue": "123",
+                "displayValue": "6167",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 722.4421,
+                "percentDailyValue": "20",
+                "displayValue": "722",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 30.12737,
+                "percentDailyValue": "151",
+                "displayValue": "30.1",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": false,
+                "name": "Vitamin C",
+                "amount": 8.107897,
+                "percentDailyValue": "14",
+                "displayValue": "8",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 50908,
+        "recipe_name": "Nanny's Goulash",
+        "image_url": "https://images.media-allrecipes.com/userphotos/720x405/775803.jpg",
+        "ingredients": [
+            "lean ground beef",
+            "fresh mushrooms sliced",
+            "green bell pepper",
+            "red bell pepper",
+            "zucchini thickly sliced",
+            "small red onion",
+            "olive oil",
+            "paprika",
+            "dried basil",
+            "garlic salt",
+            "white pepper",
+            "peeled tomatoes with liquid chopped"
+        ],
+        "cooking_directions": "Prep\n25 m\nCook\n35 m\nReady In\n1 h\nIn a large skillet, brown the ground beef. Remove beef with a slotted spoon and discard fat.\nReturn skillet to stove, heat olive oil over medium-high heat. Stir in mushrooms, green and red peppers, squash, onion, paprika, basil, garlic salt, and pepper; cook for five minutes, stirring occasionally.\nReduce heat to medium. Stir in beef and tomatoes; simmer about 20 minutes, stirring occasionally.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 7.898191,
+                "percentDailyValue": "61",
+                "displayValue": "8",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": false,
+                "name": "Sugars",
+                "amount": 4.618526,
+                "percentDailyValue": "0",
+                "displayValue": "4.6",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 448.2056,
+                "percentDailyValue": "18",
+                "displayValue": "448",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 8.892387,
+                "percentDailyValue": "3",
+                "displayValue": "8.9",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.5048247,
+                "percentDailyValue": "32",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 272.5081,
+                "percentDailyValue": "14",
+                "displayValue": "273",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": false,
+                "name": "Thiamin",
+                "amount": 0.1440585,
+                "percentDailyValue": "14",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 19.84756,
+                "percentDailyValue": "31",
+                "displayValue": "19.8",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": false,
+                "name": "Folate",
+                "amount": 39.79281,
+                "percentDailyValue": "22",
+                "displayValue": "40",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 178.6281,
+                "percentDailyValue": "-",
+                "displayValue": "179",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 46.04369,
+                "percentDailyValue": "6",
+                "displayValue": "46",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 2.697888,
+                "percentDailyValue": "11",
+                "displayValue": "2.7",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 34.35305,
+                "percentDailyValue": "12",
+                "displayValue": "34",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 2.655196,
+                "percentDailyValue": "27",
+                "displayValue": "3",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 45.7632,
+                "percentDailyValue": "15",
+                "displayValue": "46",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 15.95812,
+                "percentDailyValue": "32",
+                "displayValue": "16",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 1162.392,
+                "percentDailyValue": "23",
+                "displayValue": "1162",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": true,
+                "name": "Potassium",
+                "amount": 611.3544,
+                "percentDailyValue": "17",
+                "displayValue": "611",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": false,
+                "name": "Saturated Fat",
+                "amount": 5.398934,
+                "percentDailyValue": "27",
+                "displayValue": "5.4",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 55.21883,
+                "percentDailyValue": "92",
+                "displayValue": "55",
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "recipe_id": 73910,
+        "recipe_name": "Butter Beef",
+        "image_url": "https://images.media-allrecipes.com/userphotos/250x250/163132.jpg",
+        "ingredients": [
+            "cubed beef stew meat",
+            "butter",
+            "envelope dry onion soup mix"
+        ],
+        "cooking_directions": "Prep\n5 m\nCook\n5 h\nReady In\n5 h 5 m\nPlace the beef and butter into a slow cooker. Sprinkle the onion soup mix over. Cover, and cook on Low for 8 hours, or High for 4 to 5 hours. Stir once or twice.",
+        "nutritions": {
+            "niacin": {
+                "hasCompleteData": true,
+                "name": "Niacin Equivalents",
+                "amount": 6.962867,
+                "percentDailyValue": "54",
+                "displayValue": "7",
+                "unit": "mg"
+            },
+            "sugars": {
+                "hasCompleteData": true,
+                "name": "Sugars",
+                "amount": 0.1721675,
+                "percentDailyValue": "0",
+                "displayValue": "0.2",
+                "unit": "g"
+            },
+            "sodium": {
+                "hasCompleteData": true,
+                "name": "Sodium",
+                "amount": 457.1455,
+                "percentDailyValue": "18",
+                "displayValue": "457",
+                "unit": "mg"
+            },
+            "carbohydrates": {
+                "hasCompleteData": true,
+                "name": "Carbohydrates",
+                "amount": 2.193537,
+                "percentDailyValue": "< 1",
+                "displayValue": "2.2",
+                "unit": "g"
+            },
+            "vitaminB6": {
+                "hasCompleteData": false,
+                "name": "Vitamin B6",
+                "amount": 0.3527007,
+                "percentDailyValue": "22",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "calories": {
+                "hasCompleteData": true,
+                "name": "Calories",
+                "amount": 436.6484,
+                "percentDailyValue": "22",
+                "displayValue": "437",
+                "unit": "kcal"
+            },
+            "thiamin": {
+                "hasCompleteData": true,
+                "name": "Thiamin",
+                "amount": 0.09320938,
+                "percentDailyValue": "9",
+                "displayValue": "< 1",
+                "unit": "mg"
+            },
+            "fat": {
+                "hasCompleteData": true,
+                "name": "Fat",
+                "amount": 34.56888,
+                "percentDailyValue": "53",
+                "displayValue": "34.6",
+                "unit": "g"
+            },
+            "folate": {
+                "hasCompleteData": true,
+                "name": "Folate",
+                "amount": 7.898125,
+                "percentDailyValue": "4",
+                "displayValue": "8",
+                "unit": "mcg"
+            },
+            "caloriesFromFat": {
+                "hasCompleteData": true,
+                "name": "Calories from Fat",
+                "amount": 311.1199,
+                "percentDailyValue": "-",
+                "displayValue": "311",
+                "unit": "kcal"
+            },
+            "calcium": {
+                "hasCompleteData": true,
+                "name": "Calcium",
+                "amount": 21.4285,
+                "percentDailyValue": "3",
+                "displayValue": "21",
+                "unit": "mg"
+            },
+            "fiber": {
+                "hasCompleteData": true,
+                "name": "Dietary Fiber",
+                "amount": 0.20945,
+                "percentDailyValue": "< 1",
+                "displayValue": "0.2",
+                "unit": "g"
+            },
+            "magnesium": {
+                "hasCompleteData": false,
+                "name": "Magnesium",
+                "amount": 23.76875,
+                "percentDailyValue": "8",
+                "displayValue": "24",
+                "unit": "mg"
+            },
+            "iron": {
+                "hasCompleteData": true,
+                "name": "Iron",
+                "amount": 2.861458,
+                "percentDailyValue": "29",
+                "displayValue": "3",
+                "unit": "mg"
+            },
+            "cholesterol": {
+                "hasCompleteData": true,
+                "name": "Cholesterol",
+                "amount": 124.4431,
+                "percentDailyValue": "41",
+                "displayValue": "124",
+                "unit": "mg"
+            },
+            "protein": {
+                "hasCompleteData": true,
+                "name": "Protein",
+                "amount": 28.04513,
+                "percentDailyValue": "56",
+                "displayValue": "28",
+                "unit": "g"
+            },
+            "vitaminA": {
+                "hasCompleteData": true,
+                "name": "Vitamin A - IU",
+                "amount": 354.5456,
+                "percentDailyValue": "7",
+                "displayValue": "355",
+                "unit": "IU"
+            },
+            "potassium": {
+                "hasCompleteData": false,
+                "name": "Potassium",
+                "amount": 337.5325,
+                "percentDailyValue": "9",
+                "displayValue": "338",
+                "unit": "mg"
+            },
+            "saturatedFat": {
+                "hasCompleteData": true,
+                "name": "Saturated Fat",
+                "amount": 16.41636,
+                "percentDailyValue": "82",
+                "displayValue": "16.4",
+                "unit": "g"
+            },
+            "vitaminC": {
+                "hasCompleteData": true,
+                "name": "Vitamin C",
+                "amount": 0.4118,
+                "percentDailyValue": "< 1",
+                "displayValue": "< 1",
+                "unit": "mg"
+            }
+        }
+    }
+]

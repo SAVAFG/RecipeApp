@@ -13,11 +13,10 @@ public class JSONRecipeParser {
         mapper = new ObjectMapper();
     }
 
-    public ArrayList<Recipe> getRecipes(InputStream file) {
+    public Recipe[] getRecipes(InputStream file) {
         try {
             // JSON file to Java object
-            Recipe[] recipeList = mapper.readValue(file, Recipe[].class);
-            return new ArrayList<>(Arrays.asList(recipeList));
+            return mapper.readValue(file, Recipe[].class);
 
         } catch (IOException e) {
             e.printStackTrace();

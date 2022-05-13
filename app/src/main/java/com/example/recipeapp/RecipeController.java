@@ -14,18 +14,23 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class RecipeController extends Application {
     private ArrayList<Recipe> recipes;
 
-    public void loadRecipes(){
-        Resources resources = this.getResources();
-        JSONRecipeParser parser = new JSONRecipeParser();
-        recipes = parser.getRecipes(resources.openRawResource(R.raw.core_data));
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        recipes = new ArrayList<>();
     }
 
     public ArrayList<Recipe> getRecipes(){
         return recipes;
+    }
+
+    public void addRecipes(Recipe[] recipes){
+        this.recipes.addAll(Arrays.asList(recipes));
     }
 
     public void addRecipe(Recipe recipe){

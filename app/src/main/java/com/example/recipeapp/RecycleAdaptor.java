@@ -35,36 +35,34 @@ import java.util.ArrayList;
 
        @Override
        public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+           holder.myText1.setText(names.get(position));
+           holder.myImage.setImageResource(0);
+           Picasso.get().load(urls.get(position)).into(holder.myImage); // TODO: add code to reformat image to standardized format.
 
-           for (int i = 0; i < names.size(); i++) {
-               holder.myText1.setText(names.get(i));
-               Picasso.get().load(urls.get(i)).into(holder.myImage); // TODO: add code to reformat image to standardized format.
-           }
        }
 
        @Override
        public int getItemCount() {
-           return 0;
+           return names.size();
        }
 
 
-
-
-       public class MyViewHolder extends RecyclerView.ViewHolder {
+       public static class MyViewHolder extends RecyclerView.ViewHolder {
 
            TextView myText1;
            ImageView myImage;
 
            public MyViewHolder(@NonNull View itemView) {
                super(itemView);
-               myText1 = itemView.findViewById(R.id.foodie);
-               //     myImage = itemView.findViewById(R.id.imageView);
-
+               myText1 = (TextView) itemView.findViewById(R.id.foodie);
+               myImage = (ImageView) itemView.findViewById(R.id.imageView);
            }
        }
 
        // pass in an ArrayList of Recipes to get an ArrayList of names and an ArrayList of img urls.
        // recipe ArrayList should have been obtained through a query.
+
+       /*
        public Pair<ArrayList<String>, ArrayList<String>> parseRecipes(ArrayList<Recipe> recipes) {
            ArrayList<String> urls = new ArrayList<>();
            ArrayList<String> names = new ArrayList<>();
@@ -75,4 +73,6 @@ import java.util.ArrayList;
            }
            return new Pair<>(names, urls);
        }
+       */
+
    }
