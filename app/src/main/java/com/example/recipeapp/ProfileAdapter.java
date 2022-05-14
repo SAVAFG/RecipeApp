@@ -24,8 +24,7 @@ import java.util.Calendar;
 public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHolder> {
 
     private Context context;
-    private ArrayList<User> users;
-    RecyclerView current;
+    private static ArrayList<User> users;
 
     SharedPreferences sharedpreferences;
 
@@ -48,20 +47,14 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        ArrayList<String> birthdays = new ArrayList<String>();
         ArrayList<String> names = new ArrayList<String>();
 
         for (User profile : users) {
-            birthdays.add(profile.getBirthday().toString());
             names.add(profile.getName());
         }
 
-        holder.myText2.setText(birthdays.get(position));
         holder.myText1.setText(names.get(position));
     }
-
-
-
 
     @Override
     public int getItemCount() {
@@ -71,7 +64,6 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView myText1;
-        TextView myText2;
         CardView cardview;
 
         public MyViewHolder(@NonNull View itemView) {
@@ -79,7 +71,6 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
             itemView.setOnClickListener(this);
 
             myText1 = itemView.findViewById(R.id.userName);
-            myText2 = itemView.findViewById(R.id.userBirthday);
             cardview = itemView.findViewById(R.id.cardLayout);
 
             itemView.setOnClickListener(this);

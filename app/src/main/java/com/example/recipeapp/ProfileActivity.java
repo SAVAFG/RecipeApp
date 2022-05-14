@@ -34,6 +34,8 @@ public class ProfileActivity extends AppCompatActivity {
     private static User user2;
     private static User user3;
 
+    private String identification;
+
     private static String[] userNames = new String[3];
     Resources res;
     RecyclerView recyclerView;
@@ -46,19 +48,32 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        res = getResources();
+        identification = getIntent().getExtras().getString("id");
+        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
+
+        if (!identification.equals("null")) {
+            if (identification.equals("user1")) {
+                user1.setName(sharedpreferences.getString("user1nameKey", "null"));
+            } else if (identification.equals("user2")) {
+                user2.setName(sharedpreferences.getString("user2nameKey", "null"));
+            } else {
+                user3.setName(sharedpreferences.getString("user3nameKey", "null"));
+            }
+        }
+
+
+        res = getResources();
         userNames = res.getStringArray(R.array.exampleUsers);
 
         user1 = new User(userNames[0]);
-        user2 = new User(userNames[1]);
-        user3 = new User(userNames[2]);
-
         users.add(user1);
-        users.add(user2);
-        users.add(user3);
 
-        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        user2 = new User(userNames[1]);
+        users.add(user2);
+
+        user3 = new User(userNames[2]);
+        users.add(user3);
 
         setContentView(R.layout.activity_profiles);
 

@@ -34,7 +34,10 @@
             android:id="@+id/profilePicture"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:contentDescription="@string/app_name"
             android:padding="5dp"
             android:drawable="@drawable/profileimage" />
@@ -44,9 +47,12 @@
             android:id="@+id/userName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/profilePicture"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="10dp"
-            android:layout_toEndOf="@id/profilePicture"
+            android:layout_marginBottom="48dp"
+            android:layout_toEndOf="@+id/profilePicture"
+            android:gravity="center"
             android:text="@string/person_name"
             android:textColor="@color/black"
             android:textSize="18sp"
@@ -54,16 +60,6 @@
 
         <!--Text View to display COurse Rating-->
         <!--Image used in present in drawable folder-->
-        <TextView
-            android:id="@+id/userBirthday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/userName"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_toEndOf="@id/profilePicture"
-            android:drawablePadding="2dp"
-            android:text="@string/birthdayProfileLabel" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
 
