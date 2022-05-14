@@ -4,16 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
+import android.view.View;
 
 import com.example.recipeapp.data.JSONRecipeParser;
 import com.example.recipeapp.data.Recipe;
 
 import java.util.ArrayList;
 
-public class RecipeInfo extends AppCompatActivity {
+public class RecycleRecipeView extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
@@ -32,12 +33,12 @@ public class RecipeInfo extends AppCompatActivity {
         super.onStart();
         setContentView(R.layout.savedrecipes);
 
-        final RecipeController aRecipeController = (RecipeController) getApplicationContext();
+        final RecipeController controller = (RecipeController) getApplicationContext();
 
         ArrayList<String> names = new ArrayList<>();
         ArrayList<String> urls = new ArrayList<>();
 
-        ArrayList<Recipe> recipes = aRecipeController.getRecipes(); // TODO: get based on query
+        ArrayList<Recipe> recipes = controller.getRecipes(); // TODO: get based on query
 
         for(int i = 0; i < recipes.size(); i++) {
             String name = recipes.get(i).getRecipeName();
@@ -47,11 +48,25 @@ public class RecipeInfo extends AppCompatActivity {
         }
 
 
-        recyclerView = findViewById(R.id.fancylayout);
-        RecycleAdaptor myadaptor = new RecycleAdaptor(this, names, urls);
+        recyclerView = findViewById(R.id.recycler);
+        RecycleAdaptor adaptor = new RecycleAdaptor(this, names, urls);
+
+        recyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(controller, recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override public void onItemClick(View view, int position) {
+                        Intent intent = new Intent(RecycleRecipeView.this, SingleRecipeView.class);
+                        intent.putExtra("recipe", recipes.get(position));
+                        startActivity(intent);
+                    }
+
+                    @Override public void onLongItemClick(View view, int position) {
+                        assert true;
+                    }
+                })
+        );
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(myadaptor);
+        recyclerView.setAdapter(adaptor);
 
     }
 }

@@ -1,130 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/Survey"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/strHeaderMainSurvey"
-            android:layout_width="match_parent"
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/surveyHeaderStr"
-            android:textSize="34sp" />
+            android:layout_marginStart="164dp"
+            android:fontFamily="@font/amiko"
+            android:text="Question 1"
+            android:textColor="@color/navyblue"
+            app:layout_constraintBottom_toTopOf="@+id/textView9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.879" />
 
         <TextView
-            android:id="@+id/strHeaderMinorBirthday"
-            android:layout_width="match_parent"
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/birthdayLabelStr"
-            android:textSize="24sp" />
-
-        <DatePicker
-            android:id="@+id/datePickerBirthday"
-            android:layout_width="match_parent"
-            android:layout_height="143dp"
-            android:calendarViewShown="false"
-            android:datePickerMode="spinner" />
-
-
-        <TextView
-            android:id="@+id/strHeaderMinorGender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/GenderLabelStr"
-            android:textSize="24sp" />
-
-        <RadioGroup
-            android:id="@+id/radioGroupGender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:focusable="true"
-
-            tools:ignore="UsingOnClickInXml">
-
-            <RadioButton
-                android:id="@+id/radioButtonGenderMale"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:text="@string/maleCheckStr" />
-
-            <RadioButton
-                android:id="@+id/radioButtonGenderFemale"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:text="@string/femaleCheckStr" />
-
-            <RadioButton
-                android:id="@+id/radioButtonGenderNonBinary"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:text="@string/nonbinaryCheckStr" />
-
-            <RadioButton
-                android:id="@+id/radioButtonGenderNoResponse"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="false"
-
-                android:text="@string/noresponseCheckStr" />
-        </RadioGroup>
-
-        <TextView
-            android:id="@+id/strHeaderMinorWeight"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/WeightLabelStr"
-            android:textSize="24sp" />
-
-        <EditText
-            android:id="@+id/numDecimalWeight"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:ems="10"
-            android:hint="@string/lbsInputLabelStr"
-            android:inputType="numberDecimal"
-            android:minHeight="48dp"
-            tools:ignore="TextContrastCheck" />
-
-        <TextView
-            android:id="@+id/strHeaderUserName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/UserName"
-            android:textSize="24sp" />
+            android:layout_marginBottom="456dp"
+            android:fontFamily="@font/amiko"
+            android:text="Enter a username"
+            android:textColor="@color/navyblue"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="301dp"
+            android:layout_height="53dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/green"
             android:ems="10"
-            android:hint="@string/EnterNameHint"
+            android:fontFamily="@font/amiko"
+            android:hint="Username"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintCircleRadius="@android:dimen/dialog_min_width_major"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.094" />
 
-        <Button
-            android:id="@+id/nextButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="120dp"
+            android:layout_height="41dp"
             android:onClick="FoodRestrictions"
-            android:text="@string/nextButton"
-            android:textSize="20sp" />
-
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
-
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+            app:layout_constraintVertical_bias="0.561"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -6,9 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.example.recipeapp.data.Recipe;
+
 import androidx.annotation.NonNull;
-import androidx.core.util.Pair;
 import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 
@@ -29,15 +28,14 @@ import java.util.ArrayList;
        @Override
        public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
            LayoutInflater inflater = LayoutInflater.from(context);
-           View view = inflater.inflate(R.layout.my_row, parent, false);
+           View view = inflater.inflate(R.layout.recycler_recipe_view, parent, false);
            return new MyViewHolder(view);
        }
 
        @Override
        public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-           holder.myText1.setText(names.get(position));
-           holder.myImage.setImageResource(0);
-           Picasso.get().load(urls.get(position)).into(holder.myImage); // TODO: add code to reformat image to standardized format.
+           holder.cardText.setText(names.get(position));
+           Picasso.get().load(urls.get(position)).into(holder.cardImage); // TODO: add code to reformat image to standardized format.
 
        }
 
@@ -49,13 +47,13 @@ import java.util.ArrayList;
 
        public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-           TextView myText1;
-           ImageView myImage;
+           TextView cardText;
+           ImageView cardImage;
 
            public MyViewHolder(@NonNull View itemView) {
                super(itemView);
-               myText1 = (TextView) itemView.findViewById(R.id.foodie);
-               myImage = (ImageView) itemView.findViewById(R.id.imageView);
+               cardText = (TextView) itemView.findViewById(R.id.foodie);
+               cardImage = (ImageView) itemView.findViewById(R.id.imageView);
            }
        }
 

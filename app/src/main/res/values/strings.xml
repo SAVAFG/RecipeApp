@@ -1,11 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">RecipeApp</string>
-    <string name="userInfoHeaderStr">User Information</string>
-    <string name="ageLabelStr">Age</string>
     <string name="GenderLabelStr">Gender</string>
     <string name="WeightLabelStr">Weight</string>
     <string name="numInputLabelStr">Enter a number</string>
-    <string name="yearsInputLabelStr">Enter a number (years)</string>
     <string name="lbsInputLabelStr">Enter a number (lbs)</string>
     <string name="maleCheckStr">Male</string>
     <string name="femaleCheckStr">Female</string>
@@ -41,6 +38,8 @@
     <string name="nuts">Nuts</string>
     <string name="allergies">Allergies</string>
     <string name="food_preferences">Food Preferences</string>
+    <string name="app_label">RecipeApp</string>
+    <string name="search_hint">Enter a recipe (str)</string>
 
     <string-array name="recipenamesexample">
         <item>recipe!</item>
@@ -52,6 +51,18 @@
         <item>recipe19</item>
         <item>recipe10</item>
         <item>recipe!!</item>
+    </string-array>
+
+    <string name="create_profile">Press to create a new profile</string>
+    <string name="person_name">Name of Person</string>
+    <string name="birthdayProfileLabel">Birthday of User</string>
+    <string name="lactose">Lactose Intolerant</string>
+    <string name="select_your_allergies">Select Your Allergies</string>
+
+    <string-array name="exampleUsers">
+        <item>user1</item>
+        <item>user2</item>
+        <item>user3</item>
     </string-array>
 
 </resources>

@@ -10,7 +10,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/details_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
@@ -19,31 +19,31 @@
             app:srcCompat="@drawable/food3" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/details_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:fontFamily="@font/amiko"
             android:text="Recipe Name"
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/imageView3"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+            app:layout_constraintStart_toStartOf="@+id/details_image"
+            app:layout_constraintTop_toBottomOf="@+id/details_image" />
 
         <TextView
-            android:id="@+id/textView4"
-            android:layout_width="198dp"
-            android:layout_height="19dp"
-            android:layout_marginTop="37dp"
+            android:id="@+id/ingredients_head"
+            android:layout_width="195dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="8dp"
             android:fontFamily="@font/amiko"
             android:text="Ingredients"
             android:textSize="18dp"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
-            app:layout_constraintTop_toTopOf="@+id/textView3"
-            app:layout_constraintVertical_bias="0.822"
-            tools:layout_editor_absoluteX="0dp" />
+            app:layout_constraintBottom_toTopOf="@+id/details_ingredients"
+            app:layout_constraintStart_toStartOf="parent" />
 
-        <EditText
-            android:id="@+id/editTextTextMultiLine"
+        <TextView
+            android:id="@+id/details_ingredients"
             android:layout_width="436dp"
             android:layout_height="96dp"
             android:layout_marginTop="36dp"
@@ -57,28 +57,38 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="@+id/details_name" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/directions_head"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/amiko"
             android:text="Directions"
             android:textSize="18dp"
-            android:fontFamily="@font/amiko"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+            app:layout_constraintTop_toBottomOf="@+id/details_ingredients" />
 
-        <EditText
-            android:id="@+id/editTextTextMultiLine2"
+        <TextView
+            android:id="@+id/details_directions"
             android:layout_width="418dp"
             android:layout_height="168dp"
             android:layout_marginTop="8dp"
             android:ems="10"
             android:gravity="start|top"
-            android:text="Step 1, step 2, step 3, step 4"
             android:inputType="textMultiLine"
-            app:layout_constraintStart_toStartOf="@+id/imageView3"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            android:text="Step 1, step 2, step 3, step 4"
+            app:layout_constraintStart_toStartOf="@+id/details_image"
+            app:layout_constraintTop_toBottomOf="@+id/directions_head" />
+
+        <Button
+            android:id="@+id/add_recipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Add"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="648dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

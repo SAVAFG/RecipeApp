@@ -1,8 +1,7 @@
 
 package com.example.recipeapp.data;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,7 +23,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "nutritions"
 })
 @Generated("jsonschema2pojo")
-public class Recipe {
+public class Recipe implements Serializable {
 
     @JsonProperty("recipe_id")
     private Integer recipeId;
