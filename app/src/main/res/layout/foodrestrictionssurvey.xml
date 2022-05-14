@@ -1,133 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <LinearLayout
-        android:id="@+id/Survey"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/strHeaderMainSurvey"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/food_preferences"
-            android:textSize="34sp" />
-
-        <TextView
-            android:id="@+id/strHeaderMinorGender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/allergies"
-            android:textSize="24sp" />
-
-        <RadioGroup
-            android:id="@+id/radioGroupGender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:focusable="true"
-
-            tools:ignore="UsingOnClickInXml">
-
-            <RadioButton
-                android:id="@+id/allergy1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:text="@string/nuts" />
-
-            <RadioButton
-                android:id="@+id/allergy2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:text="@string/gluten" />
-
-            <RadioButton
-                android:id="@+id/allergy3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:text="@string/lactose_intolerant" />
-
-            <RadioButton
-                android:id="@+id/allergy4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:text="@string/fish"
-                android:focusable="true" />
-
-            <RadioButton
-                android:id="@+id/allergy5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:text="@string/soy"
-                android:focusable="true" />
-
-            <RadioButton
-                android:id="@+id/allergy6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:text="@string/wheat"
-                android:focusable="true" />
-
-            <RadioButton
-                android:id="@+id/allergy7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:text="@string/eggs"
-                android:focusable="true" />
-        </RadioGroup>
-
-
-        <TextView
-            android:id="@+id/allergiesgeneral"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/diets"
-            android:textSize="24sp" />
-
+        android:layout_height="match_parent">
 
         <RadioButton
-            android:id="@+id/diet1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/vegan" />
+            android:id="@+id/radioButton4"
+            android:layout_width="245dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="232dp"
+            android:background="@color/navyblue"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/amiko"
+            android:text="@string/wheat"
+            android:textColor="@color/navyblue"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="TextContrastCheck" />
 
         <RadioButton
-            android:id="@+id/diet2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/vegetarian" />
+            android:id="@+id/radioButton5"
+            android:layout_width="245dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="300dp"
+            android:background="@color/navyblue"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/amiko"
+            android:text="@string/eggs"
+            android:textColor="@color/navyblue"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="TextContrastCheck" />
 
         <RadioButton
-            android:id="@+id/diet3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:text="@string/pescatarian"
-            android:focusable="true" />
+            android:id="@+id/radioButton6"
+            android:layout_width="245dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="368dp"
+            android:background="@color/navyblue"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/amiko"
+            android:text="@string/soy"
+            android:textColor="@color/navyblue"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="TextContrastCheck" />
 
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="245dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="436dp"
+            android:background="@color/navyblue"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/amiko"
+            android:text="@string/lactose"
+            android:textColor="@color/navyblue"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="TextContrastCheck" />
 
-        <Button
-            android:id="@+id/nextButton"
-            android:layout_width="match_parent"
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="245dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="164dp"
+            android:background="@color/navyblue"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/amiko"
+            android:text="@string/fish"
+            android:textColor="@color/navyblue"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/amiko"
+            android:text="Question 2"
+            android:textColor="@color/navyblue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="772dp"
+            android:fontFamily="@font/amiko"
+            android:text="@string/select_your_allergies"
+            android:textColor="@color/navyblue"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="245dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/navyblue"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/amiko"
+            android:text="@string/gluten"
+            android:textColor="@color/navyblue"
+            android:textSize="13sp"
+            app:circularflow_radiusInDP="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="TextContrastCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="245dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="84dp"
+            android:background="@color/navyblue"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/amiko"
+            android:text="@string/nuts"
+            android:textColor="@color/navyblue"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.031"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="232dp"
+            android:layout_height="166dp"
+            android:layout_marginTop="104dp"
             android:onClick="RecipeDisplay"
-            android:text="@string/nextButton"
-            android:textSize="20sp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.948"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton7"
+            app:srcCompat="@drawable/rightarrow"
+            tools:ignore="SpeakableTextPresentCheck" />
 
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
-
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

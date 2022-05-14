@@ -1,6 +1,7 @@
 
 package com.example.recipeapp.data;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 import javax.annotation.Generated;
@@ -35,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "vitaminC"
 })
 @Generated("jsonschema2pojo")
-public class Nutritions {
+public class Nutritions implements Serializable {
 
     @JsonProperty("niacin")
     private Niacin niacin;

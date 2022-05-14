@@ -1,6 +1,7 @@
 
 package com.example.recipeapp.data;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 import javax.annotation.Generated;
@@ -21,7 +22,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "unit"
 })
 @Generated("jsonschema2pojo")
-public class Iron {
+public class Iron implements Serializable {
 
     @JsonProperty("hasCompleteData")
     private Boolean hasCompleteData;
