@@ -58,6 +58,7 @@
     <string name="birthdayProfileLabel">Birthday of User</string>
     <string name="lactose">Lactose Intolerant</string>
     <string name="select_your_allergies">Select Your Allergies</string>
+    <string name="profile_header">Profiles</string>
 
     <string-array name="exampleUsers">
         <item>user1</item>

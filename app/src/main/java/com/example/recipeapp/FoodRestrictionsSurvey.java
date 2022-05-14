@@ -75,10 +75,11 @@ public class FoodRestrictionsSurvey extends AppCompatActivity {
                 editor.apply();
 
                 Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                intent.putExtra("id", identification);
                 finish();
                 startActivity(intent);
 
-        }
+            }
         });
     }
 }
