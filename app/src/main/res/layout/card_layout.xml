@@ -39,8 +39,9 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:contentDescription="@string/app_name"
+            android:drawable="@drawable/profileimage"
             android:padding="5dp"
-            android:drawable="@drawable/profileimage" />
+            app:srcCompat="@drawable/profileimage" />
 
         <!--Text View to display Course Name-->
         <TextView
@@ -48,9 +49,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/profilePicture"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="23dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="48dp"
+            android:layout_marginBottom="42dp"
             android:layout_toEndOf="@+id/profilePicture"
             android:gravity="center"
             android:text="@string/person_name"
