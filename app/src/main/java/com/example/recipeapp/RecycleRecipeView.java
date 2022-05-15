@@ -1,6 +1,7 @@
 package com.example.recipeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -24,8 +25,8 @@ public class RecycleRecipeView extends AppCompatActivity {
         JSONRecipeParser parser = new JSONRecipeParser();
         Resources resources = this.getResources();
         Recipe[] recipeList = parser.getRecipes(resources.openRawResource(R.raw.test_core_data));
-        final RecipeController aRecipeController = (RecipeController) getApplicationContext();
-        aRecipeController.addRecipes(recipeList);
+        final RecipeController controller = (RecipeController) getApplicationContext();
+        controller.addRecipes(recipeList);
     }
 
     @Override
@@ -65,7 +66,7 @@ public class RecycleRecipeView extends AppCompatActivity {
                 })
         );
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
         recyclerView.setAdapter(adaptor);
 
     }

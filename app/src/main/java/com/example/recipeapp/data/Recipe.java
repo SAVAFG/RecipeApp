@@ -5,6 +5,8 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
 import javax.annotation.Generated;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
@@ -106,6 +108,10 @@ public class Recipe implements Serializable {
         this.ingredients = ingredients;
     }
 
+    public String getIngredientsAsString(){
+        return ingredients.stream().collect(Collectors.joining(", "));
+    }
+
     @JsonProperty("cooking_directions")
     public String getCookingDirections() {
         return cookingDirections;
@@ -175,5 +181,4 @@ public class Recipe implements Serializable {
         }
         return sb.toString();
     }
-
 }

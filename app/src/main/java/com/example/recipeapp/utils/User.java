@@ -1,11 +1,13 @@
 package com.example.recipeapp.utils;
 import android.os.Build;
 import androidx.annotation.RequiresApi;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Calendar;
 import static java.util.Calendar.*;
 
-public class User {
+public class User implements Serializable {
     private String name;
     private String id;
     private Calendar birthday;

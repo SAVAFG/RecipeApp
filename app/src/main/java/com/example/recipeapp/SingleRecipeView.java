@@ -33,9 +33,13 @@ public class SingleRecipeView extends AppCompatActivity {
 
     private void setView(Recipe recipe){
         TextView name = findViewById(R.id.details_name);
+        TextView ingredients = findViewById(R.id.details_ingredients);
+        TextView directions = findViewById(R.id.details_directions);
         ImageView image = findViewById(R.id.details_image);
 
         name.setText(recipe.getRecipeName());
+        ingredients.setText(recipe.getIngredientsAsString());
+        directions.setText(recipe.getCookingDirections());
         Picasso.get().load(recipe.getImageUrl()).into(image);
     }
 

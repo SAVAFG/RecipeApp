@@ -23,9 +23,8 @@ import java.util.Calendar;
 
 public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHolder> {
 
-    private Context context;
-    private static ArrayList<User> users;
-
+    Context context;
+    ArrayList<User> users;
     SharedPreferences sharedpreferences;
 
     public static final String MyPREFERENCES = "Preferences";
@@ -33,7 +32,6 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
     public ProfileAdapter(Context ct, ArrayList<User> users) {
         context = ct;
         this.users = users;
-
         sharedpreferences = context.getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
     }
 
@@ -47,7 +45,7 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        ArrayList<String> names = new ArrayList<String>();
+        ArrayList<String> names = new ArrayList<>();
 
         for (User profile : users) {
             names.add(profile.getName());
