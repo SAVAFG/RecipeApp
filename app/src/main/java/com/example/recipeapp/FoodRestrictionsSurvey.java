@@ -6,49 +6,48 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
+
+import com.example.recipeapp.data.Recipe;
+import com.example.recipeapp.utils.User;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
 public class FoodRestrictionsSurvey extends AppCompatActivity {
+    final ArrayList<CheckBox> allergyButtons = new ArrayList<>();
+    //final String MyPREFERENCES = "Preferences";
 
-    private ImageButton submit;
+    private ArrayList<String> allergies;
+    //SharedPreferences sharedpreferences;
 
-    private Set<String> allergies;
-
-    private ArrayList<RadioButton> allergyButtons = new ArrayList<RadioButton>();
-
-    private static final String MyPREFERENCES = "Preferences";
-    SharedPreferences sharedpreferences;
-
-    private String allergy_key = "allergy_key";
-    private String identification;
+    //private String allergy_key = "allergy_key";
+    //private String identification;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.foodrestrictionssurvey);
+        final Controller controller = (Controller) getApplicationContext();
+        String name;
+        if(getIntent().hasExtra("name")){
+            name = getIntent().getExtras().getString("name");
+        } else {
+            name = "User";
+        }
 
-        identification = getIntent().getExtras().getString("id");
+        //identification = getIntent().getExtras().getString("id");
+        //allergy_key = identification + allergy_key;
 
-        submit = findViewById(R.id.imageButton5);
+        ImageButton submit = findViewById(R.id.imageButton5);
+        //sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
-
-        allergy_key = identification + allergy_key;
-
-        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
-
-        allergies = new HashSet<String>();
-
+        allergies = new ArrayList<>();
         allergyButtons.add(findViewById(R.id.radioButton));
         allergyButtons.add(findViewById(R.id.radioButton2));
         allergyButtons.add(findViewById(R.id.radioButton3));
@@ -58,25 +57,26 @@ public class FoodRestrictionsSurvey extends AppCompatActivity {
         allergyButtons.add(findViewById(R.id.radioButton7));
 
 
-
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferences.Editor editor = sharedpreferences.edit();
+                //SharedPreferences.Editor editor = sharedpreferences.edit();
 
-                for (RadioButton allergyButton : allergyButtons) {
+
+                for (CheckBox allergyButton : allergyButtons) {
                     if (allergyButton.isChecked()) {
                         allergies.add(allergyButton.getText().toString());
                     }
                 }
 
-                editor.putStringSet(allergy_key, allergies);
+                User user = new User(name, allergies);
+                controller.addUser(user);
 
-                editor.apply();
+                //editor.apply();
 
-                Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
-                intent.putExtra("id", identification);
-                finish();
+                Intent intent = new Intent(getApplicationContext(), UserActivity.class);
+                //intent.putExtra("id", identification);
+                //finish();
                 startActivity(intent);
 
             }

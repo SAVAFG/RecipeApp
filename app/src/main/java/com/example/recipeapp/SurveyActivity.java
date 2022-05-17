@@ -25,7 +25,6 @@ public class SurveyActivity extends AppCompatActivity {
 
     private String name;
     private EditText text_name;
-    private ImageButton submit;
 
     SharedPreferences sharedpreferences;
 
@@ -41,37 +40,37 @@ public class SurveyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.survey);
 
-        identification = getIntent().getExtras().getString("id");
-
-        name_key = identification + name_key;
+        //identification = getIntent().getExtras().getString("id");
+        //name_key = identification + name_key;
 
         text_name = findViewById(R.id.editTextTextPersonName);
 
-        submit = findViewById(R.id.imageButton4);
+        ImageButton submit = findViewById(R.id.imageButton4);
 
-        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        //sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
 
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferences.Editor editor = sharedpreferences.edit();
+                //SharedPreferences.Editor editor = sharedpreferences.edit();
 
                 name = String.valueOf(text_name.getText());
 
-                editor.putString(name_key, name);
-                editor.apply();
+                // editor.putString(name_key, name);
+                // editor.apply();
 
                 //Log.d(Day, Integer.toString(day));
 
-                Log.d(name_key, sharedpreferences.getString(name_key, "null"));
+                //Log.d(name_key, sharedpreferences.getString(name_key, "null"));
 
                 //Toast.makeText(SurveyActivity.this,"Thanks",Toast.LENGTH_LONG).show();
                 //Toast.makeText(SurveyActivity.this,name,Toast.LENGTH_LONG).show();
 
                 Intent intent = new Intent(getApplicationContext(), FoodRestrictionsSurvey.class);
-                intent.putExtra("id", identification);
+                //intent.putExtra("id", identification);
+                intent.putExtra("name", name);
                 finish();
                 startActivity(intent);
             }
