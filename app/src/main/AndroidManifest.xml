@@ -3,7 +3,7 @@
     package="com.example.recipeapp">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:name="com.example.recipeapp.RecipeController"
+        android:name="com.example.recipeapp.Controller"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +22,7 @@
         </activity>
 
         <activity
-            android:name=".RecycleRecipeView"
+            android:name=".RecipeActivity"
             android:exported="true">
         </activity>
         <activity
@@ -30,11 +30,7 @@
             android:exported="true">
         </activity>
         <activity
-            android:name=".Test"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".ProfileActivity"
+            android:name=".UserActivity"
             android:exported="true">
         </activity>
         <activity

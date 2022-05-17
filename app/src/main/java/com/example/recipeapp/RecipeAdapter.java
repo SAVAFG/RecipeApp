@@ -13,12 +13,12 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-   public class RecycleAdaptor extends RecyclerView.Adapter<RecycleAdaptor.MyViewHolder> {
+   public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.MyViewHolder> {
        ArrayList<String> names;
        ArrayList<String> urls;
        Context context;
 
-       public RecycleAdaptor(Context ct, ArrayList<String> s1, ArrayList<String> imgUrls) {
+       public RecipeAdapter(Context ct, ArrayList<String> s1, ArrayList<String> imgUrls) {
            context = ct;
            names = s1;
            urls = imgUrls;
@@ -36,7 +36,6 @@ import java.util.ArrayList;
        public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
            holder.cardText.setText(names.get(position));
            Picasso.get().load(urls.get(position)).into(holder.cardImage); // TODO: add code to reformat image to standardized format.
-
        }
 
        @Override

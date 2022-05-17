@@ -3,7 +3,6 @@ package com.example.recipeapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
@@ -18,7 +17,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
-public class RecycleRecipeView extends AppCompatActivity {
+public class RecipeActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
@@ -28,7 +27,7 @@ public class RecycleRecipeView extends AppCompatActivity {
         JSONRecipeParser parser = new JSONRecipeParser();
         Resources resources = this.getResources();
         Recipe[] recipeList = parser.getRecipes(resources.openRawResource(R.raw.test_core_data));
-        final RecipeController controller = (RecipeController) getApplicationContext();
+        final Controller controller = (Controller) getApplicationContext();
         controller.addRecipes(recipeList);
     }
 
@@ -37,7 +36,7 @@ public class RecycleRecipeView extends AppCompatActivity {
         super.onStart();
         setContentView(R.layout.savedrecipes);
 
-        final RecipeController controller = (RecipeController) getApplicationContext();
+        final Controller controller = (Controller) getApplicationContext();
 
         ArrayList<String> names = new ArrayList<>();
         ArrayList<String> urls = new ArrayList<>();
@@ -53,12 +52,12 @@ public class RecycleRecipeView extends AppCompatActivity {
 
 
         recyclerView = findViewById(R.id.recycler);
-        RecycleAdaptor adaptor = new RecycleAdaptor(this, names, urls);
+        RecipeAdapter adaptor = new RecipeAdapter(this, names, urls);
 
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(controller, recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
-                        Intent intent = new Intent(RecycleRecipeView.this, SingleRecipeView.class);
+                        Intent intent = new Intent(RecipeActivity.this, SingleRecipeView.class);
                         intent.putExtra("recipe", recipes.get(position));
                         startActivity(intent);
                     }
@@ -86,13 +85,13 @@ public class RecycleRecipeView extends AppCompatActivity {
                 switch(item.getItemId())
                 {
                     case R.id.profile_page:
-                        Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), UserActivity.class);
                         intent.putExtra("id", "null");
                         startActivity(intent);
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.recipe_list:
-                        startActivity(new Intent(getApplicationContext(),RecycleRecipeView.class));
+                        startActivity(new Intent(getApplicationContext(),RecipeActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                 }

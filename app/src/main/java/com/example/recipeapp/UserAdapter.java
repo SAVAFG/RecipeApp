@@ -8,9 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -19,9 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.recipeapp.utils.User;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
-public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHolder> {
+public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> {
 
     Context context;
     ArrayList<User> users;
@@ -29,7 +26,7 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
 
     public static final String MyPREFERENCES = "Preferences";
 
-    public ProfileAdapter(Context ct, ArrayList<User> users) {
+    public UserAdapter(Context ct, ArrayList<User> users) {
         context = ct;
         this.users = users;
         sharedpreferences = context.getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
@@ -45,13 +42,8 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        ArrayList<String> names = new ArrayList<>();
-
-        for (User profile : users) {
-            names.add(profile.getName());
-        }
-
-        holder.myText1.setText(names.get(position));
+        User user = users.get(position);
+        holder.myText1.setText(user.getName());
     }
 
     @Override
@@ -59,34 +51,13 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
         return users.size();
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView myText1;
-        CardView cardview;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            itemView.setOnClickListener(this);
-
             myText1 = itemView.findViewById(R.id.userName);
-            cardview = itemView.findViewById(R.id.cardLayout);
-
-            itemView.setOnClickListener(this);
-        }
-
-        @Override
-        public void onClick(View view) {
-            Log.d("ClickFromViewHolder", "Clicked");
-
-            int position = this.getAdapterPosition();
-
-            User current = users.get(position);
-
-            String id = current.getId();
-
-            Intent intent = new Intent(context, SurveyActivity.class);
-            intent.putExtra("id", id);
-            context.startActivity(intent);
         }
     }
 

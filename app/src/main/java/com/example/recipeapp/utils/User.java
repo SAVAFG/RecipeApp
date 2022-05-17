@@ -9,10 +9,16 @@ import static java.util.Calendar.*;
 
 public class User implements Serializable {
     private String name;
+    private ArrayList<String> restrictions;
     private String id;
     private Calendar birthday;
     private double weight;
 
+
+    public User(String name, ArrayList<String> restrictions){
+        this.name = name;
+        this.restrictions = restrictions;
+    }
 
     public User(String name, Calendar birthday, int weight, String id) {
         this.name = name;
