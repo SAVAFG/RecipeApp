@@ -5,10 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import com.example.recipeapp.data.JSONRecipeParser;
 import com.example.recipeapp.data.Recipe;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        //populateFirestore();
+        populateFirestore();
+        Log.d("data", "firestore updated");
     }
 
     public void sendSurvey (View view){
@@ -37,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         Recipe[] recipes;
         Resources resources = this.getResources();
         JSONRecipeParser parser = new JSONRecipeParser();
-        recipes = parser.getRecipes(resources.openRawResource(R.raw.test_core_data));
+        recipes = parser.getRecipes(resources.openRawResource(R.raw.small_core_data));
 
         for(Recipe recipe : recipes){
             c.addRecipe(recipe);
