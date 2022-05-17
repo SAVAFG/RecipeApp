@@ -51,7 +51,7 @@ public class RecipeActivity extends AppCompatActivity {
         }
 
 
-        recyclerView = findViewById(R.id.recipeRecycler);
+        recyclerView = findViewById(R.id.recycler);
         RecipeAdapter adaptor = new RecipeAdapter(this, names, urls);
 
         recyclerView.addOnItemTouchListener(
@@ -85,13 +85,13 @@ public class RecipeActivity extends AppCompatActivity {
                 switch(item.getItemId())
                 {
                     case R.id.profile_page:
-                        Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), UserActivity.class);
                         intent.putExtra("id", "null");
                         startActivity(intent);
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.recipe_list:
-                        startActivity(new Intent(getApplicationContext(),RecycleRecipeView.class));
+                        startActivity(new Intent(getApplicationContext(),RecipeActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                 }
