@@ -1,31 +1,29 @@
-
 package com.example.recipeapp.data;
 
 import java.io.Serializable;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 import javax.annotation.Generated;
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "recipe_id",
-    "recipe_name",
-    "image_url",
-    "ingredients",
-    "cooking_directions",
-    "nutritions"
+        "recipe_id",
+        "recipe_name",
+        "image_url",
+        "ingredients",
+        "cooking_directions",
+        "Prep",
+        "Cook",
+        "Ready In",
+        "restrictions"
 })
 @Generated("jsonschema2pojo")
-public class Recipe implements Serializable {
+public class Recipe implements Serializable
+{
 
     @JsonProperty("recipe_id")
     private Integer recipeId;
@@ -37,35 +35,47 @@ public class Recipe implements Serializable {
     private List<String> ingredients = null;
     @JsonProperty("cooking_directions")
     private String cookingDirections;
-    @JsonProperty("nutritions")
-    private Nutritions nutritions;
-    @JsonIgnore
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    @JsonProperty("Prep")
+    private String prep;
+    @JsonProperty("Cook")
+    private String cook;
+    @JsonProperty("Ready In")
+    private String readyIn;
+    @JsonProperty("restrictions")
+    private List<String> restrictions = null;
+    private final static long serialVersionUID = 3064416104256069176L;
 
     /**
      * No args constructor for use in serialization
-     * 
+     *
      */
     public Recipe() {
     }
 
     /**
-     * 
+     *
      * @param recipeName
      * @param cookingDirections
+     * @param cook
      * @param imageUrl
      * @param ingredients
+     * @param prep
+     * @param restrictions
      * @param recipeId
-     * @param nutritions
+     * @param readyIn
      */
-    public Recipe(Integer recipeId, String recipeName, String imageUrl, List<String> ingredients, String cookingDirections, Nutritions nutritions) {
+
+    public Recipe(Integer recipeId, String recipeName, String imageUrl, List<String> ingredients, String cookingDirections, String prep, String cook, String readyIn, List<String> restrictions) {
         super();
         this.recipeId = recipeId;
         this.recipeName = recipeName;
         this.imageUrl = imageUrl;
         this.ingredients = ingredients;
         this.cookingDirections = cookingDirections;
-        this.nutritions = nutritions;
+        this.prep = prep;
+        this.cook = cook;
+        this.readyIn = readyIn;
+        this.restrictions = restrictions;
     }
 
     @JsonProperty("recipe_id")
@@ -103,13 +113,13 @@ public class Recipe implements Serializable {
         return ingredients;
     }
 
+    public String getIngredientsAsString(){
+        return ingredients.stream().collect(Collectors.joining(", "));
+    }
+
     @JsonProperty("ingredients")
     public void setIngredients(List<String> ingredients) {
         this.ingredients = ingredients;
-    }
-
-    public String getIngredientsAsString(){
-        return ingredients.stream().collect(Collectors.joining(", "));
     }
 
     @JsonProperty("cooking_directions")
@@ -122,24 +132,44 @@ public class Recipe implements Serializable {
         this.cookingDirections = cookingDirections;
     }
 
-    @JsonProperty("nutritions")
-    public Nutritions getNutritions() {
-        return nutritions;
+    @JsonProperty("Prep")
+    public String getPrep() {
+        return prep;
     }
 
-    @JsonProperty("nutritions")
-    public void setNutritions(Nutritions nutritions) {
-        this.nutritions = nutritions;
+    @JsonProperty("Prep")
+    public void setPrep(String prep) {
+        this.prep = prep;
     }
 
-    @JsonAnyGetter
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
+    @JsonProperty("Cook")
+    public String getCook() {
+        return cook;
     }
 
-    @JsonAnySetter
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
+    @JsonProperty("Cook")
+    public void setCook(String cook) {
+        this.cook = cook;
+    }
+
+    @JsonProperty("Ready In")
+    public String getReadyIn() {
+        return readyIn;
+    }
+
+    @JsonProperty("Ready In")
+    public void setReadyIn(String readyIn) {
+        this.readyIn = readyIn;
+    }
+
+    @JsonProperty("restrictions")
+    public List<String> getRestrictions() {
+        return restrictions;
+    }
+
+    @JsonProperty("restrictions")
+    public void setRestrictions(List<String> restrictions) {
+        this.restrictions = restrictions;
     }
 
     @Override
@@ -166,13 +196,21 @@ public class Recipe implements Serializable {
         sb.append('=');
         sb.append(((this.cookingDirections == null)?"<null>":this.cookingDirections));
         sb.append(',');
-        sb.append("nutritions");
+        sb.append("prep");
         sb.append('=');
-        sb.append(((this.nutritions == null)?"<null>":this.nutritions));
+        sb.append(((this.prep == null)?"<null>":this.prep));
         sb.append(',');
-        sb.append("additionalProperties");
+        sb.append("cook");
         sb.append('=');
-        sb.append(((this.additionalProperties == null)?"<null>":this.additionalProperties));
+        sb.append(((this.cook == null)?"<null>":this.cook));
+        sb.append(',');
+        sb.append("readyIn");
+        sb.append('=');
+        sb.append(((this.readyIn == null)?"<null>":this.readyIn));
+        sb.append(',');
+        sb.append("restrictions");
+        sb.append('=');
+        sb.append(((this.restrictions == null)?"<null>":this.restrictions));
         sb.append(',');
         if (sb.charAt((sb.length()- 1)) == ',') {
             sb.setCharAt((sb.length()- 1), ']');
@@ -181,4 +219,5 @@ public class Recipe implements Serializable {
         }
         return sb.toString();
     }
+
 }
