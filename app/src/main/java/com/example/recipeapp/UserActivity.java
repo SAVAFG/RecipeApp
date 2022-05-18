@@ -88,7 +88,7 @@ public class UserActivity extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.recipe_list:
-                        startActivity(new Intent(getApplicationContext(),RecipeActivity.class));
+                        startActivity(new Intent(getApplicationContext(), RecipeActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                 }
