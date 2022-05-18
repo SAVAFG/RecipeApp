@@ -71,4 +71,6 @@ public class User implements Serializable {
         this.weight = weight;
     }
 
+    public ArrayList<String> getRestrictions() { return restrictions;}
+
 }

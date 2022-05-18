@@ -14,8 +14,6 @@ import android.content.SharedPreferences;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 
 import com.example.recipeapp.utils.User;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -23,15 +21,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.ArrayList;
 
 
-public class UserActivity extends AppCompatActivity {
+public class RestrictionRecycler extends AppCompatActivity {
 
-    //private final ArrayList<User> users = new ArrayList<User>();
-    //private static User user1;
-    //private static User user2;
-    //private static User user3;
-    //private String identification;
-
-    //private static String[] userNames = new String[3];
 
     Resources res;
     RecyclerView recyclerView;
@@ -45,8 +36,7 @@ public class UserActivity extends AppCompatActivity {
 
         final Controller controller = (Controller) getApplicationContext();
         ArrayList<User> users = controller.getUsers();
-        //identification = getIntent().getExtras().getString("id");
-        //sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+
         res = getResources();
 
         setContentView(R.layout.activity_profiles);
@@ -57,7 +47,7 @@ public class UserActivity extends AppCompatActivity {
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(this, recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
-                        Intent intent = new Intent(UserActivity.this, DetailProfileActivity.class);
+                        Intent intent = new Intent(RestrictionRecycler.this, DetailProfileActivity.class);
                         intent.putExtra("Position", position);
                         startActivity(intent);
                     }

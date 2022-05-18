@@ -25,6 +25,11 @@
             android:name=".RecipeActivity"
             android:exported="true">
         </activity>
+
+        <activity
+            android:name=".DetailProfileActivity"
+            android:exported="true">
+        </activity>
         <activity
             android:name=".SurveyActivity"
             android:exported="true">
