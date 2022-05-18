@@ -81,7 +81,7 @@
             android:id="@+id/radioButton8"
             android:layout_width="245dp"
             android:layout_height="48dp"
-            android:layout_marginTop="436dp"
+            android:layout_marginTop="20dp"
             android:background="@color/navyblue"
             android:backgroundTint="@color/green"
             android:fontFamily="@font/amiko"
@@ -90,6 +90,7 @@
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.331"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioButton7"
             tools:ignore="TextContrastCheck" />
@@ -142,8 +143,9 @@
             app:layout_constraintHorizontal_bias="0.331"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="0.011"
             tools:ignore="TextContrastCheck" />
+
 
         <CheckBox
             android:id="@+id/radioButton2"
@@ -161,10 +163,8 @@
             app:layout_constraintHorizontal_bias="0.331"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
-            app:layout_constraintVertical_bias="0.031"
+            app:layout_constraintVertical_bias="0.026"
             tools:ignore="TextContrastCheck" />
-
-
 
         <ImageButton
             android:id="@+id/imageButton5"
