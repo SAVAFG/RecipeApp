@@ -18,37 +18,38 @@ import com.example.recipeapp.utils.User;
 
 import java.util.ArrayList;
 
-public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> {
+public class RestrictionAdapter extends RecyclerView.Adapter<RestrictionAdapter.MyViewHolder> {
 
     Context context;
-    ArrayList<User> users;
+    ArrayList<String> restrictions;
     SharedPreferences sharedpreferences;
 
     public static final String MyPREFERENCES = "Preferences";
 
-    public UserAdapter(Context ct, ArrayList<User> users) {
+    public RestrictionAdapter(Context ct, ArrayList<String> restrictions) {
         context = ct;
-        this.users = users;
+        this.restrictions = restrictions;
         sharedpreferences = context.getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+
     }
 
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        View view = inflater.inflate(R.layout.single_profile, parent, false);
+        View view = inflater.inflate(R.layout.restriction_adapter, parent, false);
         return new MyViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        User user = users.get(position);
-        holder.myText1.setText(user.getName());
+        String restriction = restrictions.get(position);
+        holder.myText1.setText(restriction);
     }
 
     @Override
     public int getItemCount() {
-        return users.size();
+        return restrictions.size();
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -57,7 +58,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> 
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            myText1 = itemView.findViewById(R.id.userName);
+            myText1 = itemView.findViewById(R.id.restrictionView);
         }
     }
 

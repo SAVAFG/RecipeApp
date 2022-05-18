@@ -2,6 +2,7 @@
     <string name="app_name">RecipeApp</string>
     <string name="GenderLabelStr">Gender</string>
     <string name="WeightLabelStr">Weight</string>
+    <string name="RestrictionLabelStr">Restriction</string>
     <string name="numInputLabelStr">Enter a number</string>
     <string name="lbsInputLabelStr">Enter a number (lbs)</string>
     <string name="maleCheckStr">Male</string>
@@ -59,6 +60,10 @@
     <string name="lactose">Lactose Intolerant</string>
     <string name="select_your_allergies">Select Your Allergies</string>
     <string name="profile_header">Profiles</string>
+    <string name="seasame">Seasame</string>
+    <string name="sesame">Sesame</string>
+    <string name="action_1">Delete profile</string>
+    <string name="content_description_media">Profile Picture</string>
 
     <string-array name="exampleUsers">
         <item>user1</item>

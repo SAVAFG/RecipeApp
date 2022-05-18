@@ -17,7 +17,7 @@
             android:background="@color/navyblue"
             android:backgroundTint="@color/green"
             android:fontFamily="@font/amiko"
-            android:text="@string/wheat"
+            android:text="@string/sesame"
             android:textColor="@color/navyblue"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
