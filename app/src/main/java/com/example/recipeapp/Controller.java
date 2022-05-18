@@ -72,4 +72,8 @@ public class Controller extends Application {
         users.remove(user);
         serializer.putListUser("users", users);
     }
+
+    public ArrayList<Recipe> sampleNRecipes(int n){
+        return null;
+    }
 }
