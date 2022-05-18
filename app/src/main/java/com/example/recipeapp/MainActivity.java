@@ -19,14 +19,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
-
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        populateFirestore();
-        Log.d("data", "firestore updated");
+        //populateFirestore();
+        //Log.d("data", "firestore updated");
     }
 
     public void sendSurvey (View view){
@@ -45,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
         for(Recipe recipe : recipes){
             c.addRecipe(recipe);
-            break;
+            if(recipe.getRecipeId() >= 100){
+                break;
+            }
         }
     }
 }

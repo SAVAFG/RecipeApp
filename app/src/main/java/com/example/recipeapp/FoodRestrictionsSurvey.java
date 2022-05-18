@@ -65,7 +65,7 @@ public class FoodRestrictionsSurvey extends AppCompatActivity {
 
                 for (CheckBox allergyButton : allergyButtons) {
                     if (allergyButton.isChecked()) {
-                        allergies.add(allergyButton.getText().toString());
+                        allergies.add(allergyButton.getText().toString().toLowerCase());
                     }
                 }
 
