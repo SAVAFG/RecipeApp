@@ -67,16 +67,5 @@
             app:srcCompat="@drawable/profile_blue_icon"
             android:layout_centerVertical="true"/>
 
-        <ImageView
-            android:id="@+id/deleteButton"
-            android:layout_width="60dp"
-            android:padding="5dp"
-            android:layout_marginStart="100dp"
-            android:layout_height="60dp"
-            android:contentDescription="@string/app_name"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/delete_blue_icon"
-            android:layout_toRightOf="@+id/userName"
-            android:layout_centerVertical="true"/>
     </RelativeLayout>
 </com.google.android.material.card.MaterialCardView>

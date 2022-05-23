@@ -87,7 +87,7 @@ public class RecipeActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
         // Set Home selected
-        bottomNavigationView.setSelectedItemId(R.id.recipe_list);
+        bottomNavigationView.setSelectedItemId(R.id.profile_page);
 
 
         // Perform item selected listener

@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Recipe[] recipes;
         Resources resources = this.getResources();
         JSONRecipeParser parser = new JSONRecipeParser();
-        recipes = parser.getRecipes(resources.openRawResource(R.raw.small_core_data));
+        recipes = parser.getRecipes(resources.openRawResource(R.raw.test_core_data));
 
         for(Recipe recipe : recipes){
             c.addRecipe(recipe);

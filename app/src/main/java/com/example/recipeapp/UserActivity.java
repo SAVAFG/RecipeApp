@@ -66,7 +66,7 @@ public class UserActivity extends AppCompatActivity {
                         assert true;
                     }
                 })
-        );
+        );     
 
         // Initialize and assign variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
